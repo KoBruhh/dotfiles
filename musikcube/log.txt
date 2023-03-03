@@ -333,3 +333,36 @@
 22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
 22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
 22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+22:06:14 [info] [ffmpegdecoder] finished decoding.
+22:06:16 [info] [GaplessTransport] stop
+22:06:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+22:06:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+22:06:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+22:06:16 [info] [Player] new instance created
+22:06:16 [info] [Stream] opening /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 2.mp3
+22:06:16 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 2.mp3
+22:06:16 [info] [ffmpegdecoder] parsing data stream...
+22:06:16 [info] [ffmpegdecoder] found audio stream!
+22:06:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:06:16 [info] [Streams] found a decoder for /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 2.mp3
+22:06:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:07:06 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+22:07:06 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+22:07:06 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+22:09:36 [info] [ffmpegdecoder] finished decoding.
+22:09:39 [info] [GaplessTransport] stop
+22:09:39 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+22:09:39 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+22:09:39 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+22:09:39 [info] [Player] new instance created
+22:09:39 [info] [Stream] opening /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 3.mp3
+22:09:39 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 3.mp3
+22:09:39 [info] [ffmpegdecoder] parsing data stream...
+22:09:39 [info] [ffmpegdecoder] found audio stream!
+22:09:39 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:09:39 [info] [Streams] found a decoder for /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 3.mp3
+22:09:39 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:10:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+22:10:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+22:10:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+22:11:08 [info] [GaplessTransport] pause
