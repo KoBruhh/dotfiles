@@ -1,12 +1,3 @@
-2023/03/03-21:59:32.317 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2023/03/03-21:59:32.317 3 Recovering log #28
-2023/03/03-21:59:32.318 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000028.log 
-2023/03/03-22:30:37.157 10 Level-0 table #33: started
-2023/03/03-22:30:37.165 10 Level-0 table #33: 42185 bytes OK
-2023/03/03-22:30:37.169 10 Delete type=0 #28
-2023/03/03-22:36:46.445 13 Level-0 table #35: started
-2023/03/03-22:36:46.457 13 Level-0 table #35: 106045 bytes OK
-2023/03/03-22:36:46.461 13 Delete type=0 #32
-2023/03/03-22:36:51.442 13 Level-0 table #37: started
-2023/03/03-22:36:51.449 13 Level-0 table #37: 106327 bytes OK
-2023/03/03-22:36:51.454 13 Delete type=0 #34
+2023/03/04-01:09:44.851 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2023/03/04-01:09:44.851 3 Recovering log #38
+2023/03/04-01:09:44.852 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000038.log 

@@ -1,24 +1,9 @@
-2023/03/03-20:02:39.406 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2023/03/03-20:02:39.407 3 Recovering log #47
-2023/03/03-20:02:39.407 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000047.log 
-2023/03/03-20:03:42.269 3 Level-0 table #52: started
-2023/03/03-20:03:42.276 3 Level-0 table #52: 11316 bytes OK
-2023/03/03-20:03:42.281 3 Delete type=0 #47
-2023/03/03-20:05:00.860 7 Level-0 table #54: started
-2023/03/03-20:05:00.876 7 Level-0 table #54: 1429600 bytes OK
-2023/03/03-20:05:00.880 7 Delete type=0 #51
-2023/03/03-21:11:30.852 3 Level-0 table #56: started
-2023/03/03-21:11:30.861 3 Level-0 table #56: 18089 bytes OK
-2023/03/03-21:11:30.866 3 Delete type=0 #53
-2023/03/03-21:35:51.644 3 Level-0 table #58: started
-2023/03/03-21:35:51.652 3 Level-0 table #58: 18077 bytes OK
-2023/03/03-21:35:51.657 3 Delete type=0 #55
-2023/03/03-21:35:51.657 3 Compacting 4@0 + 1@1 files
-2023/03/03-21:35:51.674 3 Generated table #59@0: 620 keys, 1493434 bytes
-2023/03/03-21:35:51.674 3 Compacted 4@0 + 1@1 files => 1493434 bytes
-2023/03/03-21:35:51.678 3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/03/03-21:35:51.678 3 Delete type=2 #49
-2023/03/03-21:35:51.678 3 Delete type=2 #52
-2023/03/03-21:35:51.678 3 Delete type=2 #54
-2023/03/03-21:35:51.678 3 Delete type=2 #56
-2023/03/03-21:35:51.678 3 Delete type=2 #58
+2023/03/03-23:52:18.589 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/03-23:52:18.589 3 Recovering log #88
+2023/03/03-23:52:18.590 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000088.log 
+2023/03/03-23:53:31.396 3 Level-0 table #92: started
+2023/03/03-23:53:31.404 3 Level-0 table #92: 21181 bytes OK
+2023/03/03-23:53:31.408 3 Delete type=0 #88
+2023/03/04-00:06:52.860 b Level-0 table #94: started
+2023/03/04-00:06:52.868 b Level-0 table #94: 21090 bytes OK
+2023/03/04-00:06:52.873 b Delete type=0 #91

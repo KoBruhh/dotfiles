@@ -1,3 +1,45 @@
-2023/03/03-16:58:25.912 120a Creating DB /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/03/03-16:58:25.918 120a Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/03-16:58:25.943 294d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/04-01:09:45.081 1f410 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/04-01:09:45.081 1f410 Recovering log #114
+2023/03/04-01:09:45.082 1f410 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000114.log 
+2023/03/04-01:10:22.467 1f411 Level-0 table #125: started
+2023/03/04-01:10:22.488 1f411 Level-0 table #125: 1092953 bytes OK
+2023/03/04-01:10:22.491 1f411 Delete type=0 #114
+2023/03/04-01:10:22.503 1f411 Compacting 1@1 + 7@2 files
+2023/03/04-01:10:22.538 1f411 Generated table #126@1: 19483 keys, 2194063 bytes
+2023/03/04-01:10:22.561 1f411 Generated table #127@1: 3554 keys, 2170096 bytes
+2023/03/04-01:10:22.580 1f411 Generated table #128@1: 3325 keys, 2154754 bytes
+2023/03/04-01:10:22.629 1f411 Generated table #129@1: 28418 keys, 2259489 bytes
+2023/03/04-01:10:22.663 1f411 Generated table #130@1: 26452 keys, 2197713 bytes
+2023/03/04-01:10:22.719 1f411 Generated table #131@1: 97051 keys, 2247561 bytes
+2023/03/04-01:10:22.737 1f411 Generated table #132@1: 24169 keys, 562655 bytes
+2023/03/04-01:10:22.737 1f411 Compacted 1@1 + 7@2 files => 13786331 bytes
+2023/03/04-01:10:22.741 1f411 compacted to: files[ 0 0 7 0 0 0 0 ]
+2023/03/04-01:10:22.741 1f411 Delete type=2 #116
+2023/03/04-01:10:22.741 1f411 Delete type=2 #117
+2023/03/04-01:10:22.741 1f411 Delete type=2 #118
+2023/03/04-01:10:22.741 1f411 Delete type=2 #119
+2023/03/04-01:10:22.741 1f411 Delete type=2 #120
+2023/03/04-01:10:22.741 1f411 Delete type=2 #121
+2023/03/04-01:10:22.741 1f411 Delete type=2 #122
+2023/03/04-01:10:22.741 1f411 Delete type=2 #125
+2023/03/04-01:11:09.452 1f411 Level-0 table #134: started
+2023/03/04-01:11:09.478 1f411 Level-0 table #134: 1071926 bytes OK
+2023/03/04-01:11:09.482 1f411 Delete type=0 #124
+2023/03/04-01:11:10.480 1f411 Compacting 1@1 + 7@2 files
+2023/03/04-01:11:10.521 1f411 Generated table #135@1: 19504 keys, 2195232 bytes
+2023/03/04-01:11:10.543 1f411 Generated table #136@1: 3554 keys, 2170096 bytes
+2023/03/04-01:11:10.566 1f411 Generated table #137@1: 3325 keys, 2154754 bytes
+2023/03/04-01:11:10.612 1f411 Generated table #138@1: 28418 keys, 2259489 bytes
+2023/03/04-01:11:10.648 1f411 Generated table #139@1: 24425 keys, 2196401 bytes
+2023/03/04-01:11:10.701 1f411 Generated table #140@1: 93652 keys, 2243206 bytes
+2023/03/04-01:11:10.726 1f411 Generated table #141@1: 42788 keys, 996539 bytes
+2023/03/04-01:11:10.726 1f411 Compacted 1@1 + 7@2 files => 14215717 bytes
+2023/03/04-01:11:10.729 1f411 compacted to: files[ 0 0 7 0 0 0 0 ]
+2023/03/04-01:11:10.729 1f411 Delete type=2 #126
+2023/03/04-01:11:10.729 1f411 Delete type=2 #127
+2023/03/04-01:11:10.729 1f411 Delete type=2 #128
+2023/03/04-01:11:10.729 1f411 Delete type=2 #129
+2023/03/04-01:11:10.729 1f411 Delete type=2 #130
+2023/03/04-01:11:10.729 1f411 Delete type=2 #131
+2023/03/04-01:11:10.729 1f411 Delete type=2 #132
+2023/03/04-01:11:10.729 1f411 Delete type=2 #134

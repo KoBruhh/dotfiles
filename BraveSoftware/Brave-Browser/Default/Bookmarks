@@ -1,0 +1,47 @@
+{
+   "checksum": "8af6d97ce02c15ed045b390fc158928a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13322350296751693",
+            "date_last_used": "0",
+            "guid": "7a518d03-0259-4248-a27d-6684a94e5e99",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "coc server connection lost nvim - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?q=coc+server+connection+lost+nvim&sxsrf=AJOqlzWiAjIrRbY_7lMHfLsD3BnESuTktA%3A1677874099760&ei=s1MCZPD4LYmBxc8P2u6R2Ao&oq=coc&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgQIIxAnMgQIIxAnMgQIIxAnMgUIABCRAjIECAAQQzIFCC4QgAQyCAguEIAEENQCMgsILhCABBDHARDRAzIICC4QgAQQ1AIyBQgAEIAEOgcIABCABBAKOgcILhCABBAKSgQIQRgAUABY_A5g-BRoBHABeACAAYUBiAHpBpIBAzAuN5gBAKABAcABAQ&sclient=gws-wiz-serp"
+         } ],
+         "date_added": "13322343572178783",
+         "date_last_used": "0",
+         "date_modified": "13322350296751693",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13322343572178787",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13322343572178791",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
