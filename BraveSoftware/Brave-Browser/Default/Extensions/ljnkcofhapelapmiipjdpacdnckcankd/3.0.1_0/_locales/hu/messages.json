@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Védje idejét és tapasztalatait a hulladék webhelyek blokkolásával."
+   },
+   "app_name": {
+      "message": "Webhely blokkolása"
+   },
+   "manage_tab_block": {
+      "message": "Webhelyek blokkolása"
+   },
+   "manage_tab_block_decs": {
+      "message": "Egy vagy több webhely blokkolása pontos domain név hozzáadásával. \u003Cbr/> Élvezze időt pazarolt webhelyek nélkül."
+   },
+   "manage_tab_block_input": {
+      "message": "Adjon meg egy webcímet (például: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blokkolás kategóriák szerint"
+   },
+   "manage_tab_cats_1": {
+      "message": "agresszív"
+   },
+   "manage_tab_cats_10": {
+      "message": "politika"
+   },
+   "manage_tab_cats_11": {
+      "message": "pornó"
+   },
+   "manage_tab_cats_12": {
+      "message": "bevásárlás"
+   },
+   "manage_tab_cats_13": {
+      "message": "SocialNet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "erőszak"
+   },
+   "manage_tab_cats_16": {
+      "message": "fegyverek"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "társkereső"
+   },
+   "manage_tab_cats_4": {
+      "message": "letöltések"
+   },
+   "manage_tab_cats_5": {
+      "message": "gyógyszerek"
+   },
+   "manage_tab_cats_6": {
+      "message": "szerencsejáték"
+   },
+   "manage_tab_cats_7": {
+      "message": "hacker"
+   },
+   "manage_tab_cats_8": {
+      "message": "filmek"
+   },
+   "manage_tab_cats_9": {
+      "message": "zene"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Mentés"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Válasszon olyan domainkategóriákat, amelyek nem jelennek meg az internetes szörfözés során."
+   },
+   "manage_tab_cats_title": {
+      "message": "Blokk kategóriák"
+   },
+   "manage_tab_schedule": {
+      "message": "Ütemezés blokkolása"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Minden webhelyre alkalmazzon egyedi blokkolási ütemezést \u003Cbr/> vagy állítsa be az összes blokkolt domain ütemezését egyszerre."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Állítsa be a blokkolási ütemezést"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Add Interval"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Jelentkezzen az összes blokkoltra"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Jelentkezzen erre a domainre"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "KIVÁLASZTOTT NAPOK"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "IDŐ BEÁLLÍTÁSA"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "nak nek"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Munkabeosztás"
+   },
+   "manage_tab_white": {
+      "message": "A webhely fehér listája"
+   },
+   "manage_tab_white_desc": {
+      "message": "A listán szereplő webhelyek elkerülik az összes blokkoló beállítást."
+   },
+   "manage_tab_white_input": {
+      "message": "Bemeneti fehér oldal"
+   },
+   "manage_tab_white_title": {
+      "message": "Fehér jegyzékkel ellátott webhelyek"
+   },
+   "manage_tab_words": {
+      "message": "Blokk szavakkal"
+   },
+   "manage_tab_words_desc": {
+      "message": "Adjon hozzá külön szavakat vagy kifejezéseket \u003Cbr/> az összes domain letiltásához kapcsolódó tartalmat tartalmazzon."
+   },
+   "manage_tab_words_input": {
+      "message": "Írjon be egy szót vagy kifejezést"
+   },
+   "manage_tab_words_title": {
+      "message": "Blokkolás szavak által"
+   },
+   "popup_btn_block": {
+      "message": "Blokkolja az aktuális webhelyet"
+   },
+   "popup_btn_manage": {
+      "message": "Kezelje a blokkolt webhelyeket"
+   },
+   "popup_label_rate": {
+      "message": "Kérjük, értékelje minket!"
+   },
+   "popup_not_avail": {
+      "message": "Ez a webhely nem érhető el blokkolásra"
+   },
+   "redirect_message": {
+      "message": "Ez a webhely le van tiltva. Ne próbálja megváltoztatni!"
+   },
+   "redirect_title": {
+      "message": "A webhely le van tiltva"
+   }
+}

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title data-i18n="popup_btn_manage">Manage blocked sites</title>
+    <link rel="stylesheet" href="css/bootstrap.min.34.css">
+    <link rel="stylesheet" href="css/fa.all.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/manage-sites.css">
+</head>
+
+<body>
+    <div class="popup not-visible"></div>
+    <div class="container hidden">
+        <section class='tabs'>
+            <div class="main-menu">
+                <div class="defender">
+                    <a class="navbar-brand" href="https://blocksite.freeonlineapps.net" target="_blank">
+                        <img class="img-fluid"
+                            src="../icons/Logo-for-light-BG-2.svg "
+                            alt="Block Site; for Chrome™"
+                            height="30"
+                            title="Block Site; for Chrome™">
+                    </a>
+                    <div class="toggle-button">
+                        <div class="inner-circle"></div> <span id="switch-label">On</span>
+                    </div>
+                </div>
+                <div class='button-list pull-right'>
+                        <button name='content1' class="category-icon blocking" data-i18n="manage_tab_block">
+                            Block Sites
+                        </button>
+                        <button name='content2' class="category-icon schedule" data-i18n="manage_tab_schedule">
+                            Blocking Schedule
+                        </button>
+                        <!--button name='content3' class="category-icon categories" data-i18n="manage_tab_cats">
+                            Block by Categories
+                        </button-->
+                        <button name='content4' class="category-icon words" data-i18n="manage_tab_words">
+                            Block by Words
+                        </button>
+                        <button name='content5' class="category-icon white-list" data-i18n="manage_tab_white">
+                            Site White List
+                        </button>
+                </div><!-- / .button-list -->
+            </div>
+
+            <div class="clearfix"></div>
+
+            <section id='content1'>
+                <hgroup>
+                    <h1 class="content-header" data-i18n="manage_tab_block">
+                        Block Sites
+                    </h1>
+                    <h2 class="content-description" data-i18n="manage_tab_block_decs">
+                        Block one or several websites by adding accurate domain name. 
+                        <br/>Enjoy your time without wasted websites.
+                    </h2>
+                </hgroup>
+                <div class="main-input">
+                    <input type="text" placeholder="Enter a web address (ex: google.com)" id="block-domain">
+                    <i class="fas fa-plus add"></i>
+                </div>
+                <ul class="blocked-domains-list"></ul>
+            </section>
+
+            <section id='content2'>
+
+                <hgroup>
+                    <h1 class="content-header" data-i18n="manage_tab_schedule_title">
+                        Working Schedule
+                    </h1>
+                    <h2 class="content-description" data-i18n="manage_tab_schedule_desc">
+                        Apply individual blocking schedule for each websites <br/>or set up schedule for all blocked domains at once.
+                    </h2>
+                </hgroup>
+                <div class="main-input">
+                    <input type="text" placeholder="Enter a web address (ex: google.com)" id="work-schedule">
+                    <i class="fas fa-plus add"></i>
+                </div>
+                <div class="schedule-settings">
+                    <div class="left-side">
+                        <h2 data-i18n="manage_tab_schedule_left">
+                            Set up blocking schedule
+                        </h2>
+                        <div class="set-time">
+                            <h3 data-i18n="manage_tab_schedule_left_times">
+                                SET TIMES
+                            </h3>
+                            <div class="schedule-range-container">
+                                <div class="inputs-container">
+                                    <div>
+                                        <input type="text" class="start-time" placeholder="start" value="10:00"
+                                            data-time="10:00">
+                                        <div class="schedule-options start-time-option">
+                                            <div class="time-option">00:00</div>
+                                            <div class="time-option">00:10</div>
+                                            <div class="time-option">00:20</div>
+                                            <div class="time-option">00:30</div>
+                                            <div class="time-option">00:40</div>
+                                            <div class="time-option">00:50</div>
+                                            <div class="time-option">01:10</div>
+                                            <div class="time-option">01:20</div>
+                                            <div class="time-option">01:30</div>
+                                            <div class="time-option">01:40</div>
+                                            <div class="time-option">01:50</div>
+                                            <div class="time-option">02:00</div>
+                                            <div class="time-option">02:10</div>
+                                            <div class="time-option">02:20</div>
+                                            <div class="time-option">02:30</div>
+                                            <div class="time-option">02:40</div>
+                                            <div class="time-option">02:50</div>
+                                            <div class="time-option">03:00</div>
+                                            <div class="time-option">03:10</div>
+                                            <div class="time-option">03:20</div>
+                                            <div class="time-option">03:30</div>
+                                            <div class="time-option">03:40</div>
+                                            <div class="time-option">03:50</div>
+                                            <div class="time-option">04:00</div>
+                                            <div class="time-option">04:10</div>
+                                            <div class="time-option">04:20</div>
+                                            <div class="time-option">04:30</div>
+                                            <div class="time-option">04:40</div>
+                                            <div class="time-option">04:50</div>
+                                            <div class="time-option">05:00</div>
+                                            <div class="time-option">05:10</div>
+                                            <div class="time-option">05:20</div>
+                                            <div class="time-option">05:30</div>
+                                            <div class="time-option">05:40</div>
+                                            <div class="time-option">05:50</div>
+                                            <div class="time-option">06:00</div>
+                                            <div class="time-option">06:10</div>
+                                            <div class="time-option">06:20</div>
+                                            <div class="time-option">06:30</div>
+                                            <div class="time-option">06:40</div>
+                                            <div class="time-option">06:50</div>
+                                            <div class="time-option">07:00</div>
+                                            <div class="time-option">07:10</div>
+                                            <div class="time-option">07:20</div>
+                                            <div class="time-option">07:30</div>
+                                            <div class="time-option">07:40</div>
+                                            <div class="time-option">07:50</div>
+                                            <div class="time-option">08:00</div>
+                                            <div class="time-option">08:10</div>
+                                            <div class="time-option">08:20</div>
+                                            <div class="time-option">08:30</div>
+                                            <div class="time-option">08:40</div>
+                                            <div class="time-option">08:50</div>
+                                            <div class="time-option">09:00</div>
+                                            <div class="time-option">09:10</div>
+                                            <div class="time-option">09:20</div>
+                                            <div class="time-option">09:30</div>
+                                            <div class="time-option">09:40</div>
+                                            <div class="time-option">09:50</div>
+                                            <div class="time-option">10:00</div>
+                                            <div class="time-option">10:10</div>
+                                            <div class="time-option">10:20</div>
+                                            <div class="time-option">10:30</div>
+                                            <div class="time-option">10:40</div>
+                                            <div class="time-option">10:50</div>
+                                            <div class="time-option">11:00</div>
+                                            <div class="time-option">11:10</div>
+                                            <div class="time-option">11:20</div>
+                                            <div class="time-option">11:30</div>
+                                            <div class="time-option">11:40</div>
+                                            <div class="time-option">11:50</div>
+                                            <div class="time-option">12:00</div>
+                                            <div class="time-option">12:10</div>
+                                            <div class="time-option">12:20</div>
+                                            <div class="time-option">12:30</div>
+                                            <div class="time-option">12:40</div>
+                                            <div class="time-option">12:50</div>
+                                            <div class="time-option">13:00</div>
+                                            <div class="time-option">13:10</div>
+                                            <div class="time-option">13:20</div>
+                                            <div class="time-option">13:30</div>
+                                            <div class="time-option">13:40</div>
+                                            <div class="time-option">13:50</div>
+                                            <div class="time-option">14:00</div>
+                                            <div class="time-option">14:10</div>
+                                            <div class="time-option">14:20</div>
+                                            <div class="time-option">14:30</div>
+                                            <div class="time-option">14:40</div>
+                                            <div class="time-option">14:50</div>
+                                            <div class="time-option">15:00</div>
+                                            <div class="time-option">15:10</div>
+                                            <div class="time-option">15:20</div>
+                                            <div class="time-option">15:30</div>
+                                            <div class="time-option">15:40</div>
+                                            <div class="time-option">15:50</div>
+                                            <div class="time-option">16:00</div>
+                                            <div class="time-option">16:10</div>
+                                            <div class="time-option">16:20</div>
+                                            <div class="time-option">16:30</div>
+                                            <div class="time-option">16:40</div>
+                                            <div class="time-option">16:50</div>
+                                            <div class="time-option">17:00</div>
+                                            <div class="time-option">17:10</div>
+                                            <div class="time-option">17:20</div>
+                                            <div class="time-option">17:30</div>
+                                            <div class="time-option">17:40</div>
+                                            <div class="time-option">17:50</div>
+                                            <div class="time-option">18:00</div>
+                                            <div class="time-option">18:10</div>
+                                            <div class="time-option">18:20</div>
+                                            <div class="time-option">18:30</div>
+                                            <div class="time-option">18:40</div>
+                                            <div class="time-option">18:50</div>
+                                            <div class="time-option">19:00</div>
+                                            <div class="time-option">19:10</div>
+                                            <div class="time-option">19:20</div>
+                                            <div class="time-option">19:30</div>
+                                            <div class="time-option">19:40</div>
+                                            <div class="time-option">19:50</div>
+                                            <div class="time-option">20:00</div>
+                                            <div class="time-option">20:10</div>
+                                            <div class="time-option">20:20</div>
+                                            <div class="time-option">20:30</div>
+                                            <div class="time-option">20:40</div>
+                                            <div class="time-option">20:50</div>
+                                            <div class="time-option">21:00</div>
+                                            <div class="time-option">21:10</div>
+                                            <div class="time-option">21:20</div>
+                                            <div class="time-option">21:30</div>
+                                            <div class="time-option">21:40</div>
+                                            <div class="time-option">21:50</div>
+                                            <div class="time-option">22:00</div>
+                                            <div class="time-option">22:10</div>
+                                            <div class="time-option">22:20</div>
+                                            <div class="time-option">22:30</div>
+                                            <div class="time-option">22:40</div>
+                                            <div class="time-option">22:50</div>
+                                            <div class="time-option">23:00</div>
+                                            <div class="time-option">23:10</div>
+                                            <div class="time-option">23:20</div>
+                                            <div class="time-option">23:30</div>
+                                            <div class="time-option">23:40</div>
+                                            <div class="time-option">23:50</div>
+                                        </div>
+                                    </div>
+
+                                    <span data-i18n="manage_tab_schedule_left_to">to</span>
+                                    <div>
+                                        <input type="text" class="end-time" placeholder="end" value="12:00"
+                                            data-time="12:00">
+                                        <div class="schedule-options end-time-option hidden">
+                                            <div class="time-option">00:00</div>
+                                            <div class="time-option">00:10</div>
+                                            <div class="time-option">00:20</div>
+                                            <div class="time-option">00:30</div>
+                                            <div class="time-option">00:40</div>
+                                            <div class="time-option">00:50</div>
+                                            <div class="time-option">01:10</div>
+                                            <div class="time-option">01:20</div>
+                                            <div class="time-option">01:30</div>
+                                            <div class="time-option">01:40</div>
+                                            <div class="time-option">01:50</div>
+                                            <div class="time-option">02:00</div>
+                                            <div class="time-option">02:10</div>
+                                            <div class="time-option">02:20</div>
+                                            <div class="time-option">02:30</div>
+                                            <div class="time-option">02:40</div>
+                                            <div class="time-option">02:50</div>
+                                            <div class="time-option">03:00</div>
+                                            <div class="time-option">03:10</div>
+                                            <div class="time-option">03:20</div>
+                                            <div class="time-option">03:30</div>
+                                            <div class="time-option">03:40</div>
+                                            <div class="time-option">03:50</div>
+                                            <div class="time-option">04:00</div>
+                                            <div class="time-option">04:10</div>
+                                            <div class="time-option">04:20</div>
+                                            <div class="time-option">04:30</div>
+                                            <div class="time-option">04:40</div>
+                                            <div class="time-option">04:50</div>
+                                            <div class="time-option">05:00</div>
+                                            <div class="time-option">05:10</div>
+                                            <div class="time-option">05:20</div>
+                                            <div class="time-option">05:30</div>
+                                            <div class="time-option">05:40</div>
+                                            <div class="time-option">05:50</div>
+                                            <div class="time-option">06:00</div>
+                                            <div class="time-option">06:10</div>
+                                            <div class="time-option">06:20</div>
+                                            <div class="time-option">06:30</div>
+                                            <div class="time-option">06:40</div>
+                                            <div class="time-option">06:50</div>
+                                            <div class="time-option">07:00</div>
+                                            <div class="time-option">07:10</div>
+                                            <div class="time-option">07:20</div>
+                                            <div class="time-option">07:30</div>
+                                            <div class="time-option">07:40</div>
+                                            <div class="time-option">07:50</div>
+                                            <div class="time-option">08:00</div>
+                                            <div class="time-option">08:10</div>
+                                            <div class="time-option">08:20</div>
+                                            <div class="time-option">08:30</div>
+                                            <div class="time-option">08:40</div>
+                                            <div class="time-option">08:50</div>
+                                            <div class="time-option">09:00</div>
+                                            <div class="time-option">09:10</div>
+                                            <div class="time-option">09:20</div>
+                                            <div class="time-option">09:30</div>
+                                            <div class="time-option">09:40</div>
+                                            <div class="time-option">09:50</div>
+                                            <div class="time-option">10:00</div>
+                                            <div class="time-option">10:10</div>
+                                            <div class="time-option">10:20</div>
+                                            <div class="time-option">10:30</div>
+                                            <div class="time-option">10:40</div>
+                                            <div class="time-option">10:50</div>
+                                            <div class="time-option">11:00</div>
+                                            <div class="time-option">11:10</div>
+                                            <div class="time-option">11:20</div>
+                                            <div class="time-option">11:30</div>
+                                            <div class="time-option">11:40</div>
+                                            <div class="time-option">11:50</div>
+                                            <div class="time-option">12:00</div>
+                                            <div class="time-option">12:10</div>
+                                            <div class="time-option">12:20</div>
+                                            <div class="time-option">12:30</div>
+                                            <div class="time-option">12:40</div>
+                                            <div class="time-option">12:50</div>
+                                            <div class="time-option">13:00</div>
+                                            <div class="time-option">13:10</div>
+                                            <div class="time-option">13:20</div>
+                                            <div class="time-option">13:30</div>
+                                            <div class="time-option">13:40</div>
+                                            <div class="time-option">13:50</div>
+                                            <div class="time-option">14:00</div>
+                                            <div class="time-option">14:10</div>
+                                            <div class="time-option">14:20</div>
+                                            <div class="time-option">14:30</div>
+                                            <div class="time-option">14:40</div>
+                                            <div class="time-option">14:50</div>
+                                            <div class="time-option">15:00</div>
+                                            <div class="time-option">15:10</div>
+                                            <div class="time-option">15:20</div>
+                                            <div class="time-option">15:30</div>
+                                            <div class="time-option">15:40</div>
+                                            <div class="time-option">15:50</div>
+                                            <div class="time-option">16:00</div>
+                                            <div class="time-option">16:10</div>
+                                            <div class="time-option">16:20</div>
+                                            <div class="time-option">16:30</div>
+                                            <div class="time-option">16:40</div>
+                                            <div class="time-option">16:50</div>
+                                            <div class="time-option">17:00</div>
+                                            <div class="time-option">17:10</div>
+                                            <div class="time-option">17:20</div>
+                                            <div class="time-option">17:30</div>
+                                            <div class="time-option">17:40</div>
+                                            <div class="time-option">17:50</div>
+                                            <div class="time-option">18:00</div>
+                                            <div class="time-option">18:10</div>
+                                            <div class="time-option">18:20</div>
+                                            <div class="time-option">18:30</div>
+                                            <div class="time-option">18:40</div>
+                                            <div class="time-option">18:50</div>
+                                            <div class="time-option">19:00</div>
+                                            <div class="time-option">19:10</div>
+                                            <div class="time-option">19:20</div>
+                                            <div class="time-option">19:30</div>
+                                            <div class="time-option">19:40</div>
+                                            <div class="time-option">19:50</div>
+                                            <div class="time-option">20:00</div>
+                                            <div class="time-option">20:10</div>
+                                            <div class="time-option">20:20</div>
+                                            <div class="time-option">20:30</div>
+                                            <div class="time-option">20:40</div>
+                                            <div class="time-option">20:50</div>
+                                            <div class="time-option">21:00</div>
+                                            <div class="time-option">21:10</div>
+                                            <div class="time-option">21:20</div>
+                                            <div class="time-option">21:30</div>
+                                            <div class="time-option">21:40</div>
+                                            <div class="time-option">21:50</div>
+                                            <div class="time-option">22:00</div>
+                                            <div class="time-option">22:10</div>
+                                            <div class="time-option">22:20</div>
+                                            <div class="time-option">22:30</div>
+                                            <div class="time-option">22:40</div>
+                                            <div class="time-option">22:50</div>
+                                            <div class="time-option">23:00</div>
+                                            <div class="time-option">23:10</div>
+                                            <div class="time-option">23:20</div>
+                                            <div class="time-option">23:30</div>
+                                            <div class="time-option">23:40</div>
+                                            <div class="time-option">23:50</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <button type="button" class="add-interval" data-i18n="manage_tab_schedule_left_add_time">Add Interval</button>
+                            </div>
+                            <div class="schedule-range-container hidden">
+                                <div class="inputs-container">
+                                    <div>
+                                        <input type="text" 
+                                            class="start-time" 
+                                            placeholder="start" 
+                                            value="10:00"
+                                            data-time="10:00">
+                                        <div class="schedule-options start-time-option">
+                                            <div class="time-option">00:00</div>
+                                            <div class="time-option">00:10</div>
+                                            <div class="time-option">00:20</div>
+                                            <div class="time-option">00:30</div>
+                                            <div class="time-option">00:40</div>
+                                            <div class="time-option">00:50</div>
+                                            <div class="time-option">01:10</div>
+                                            <div class="time-option">01:20</div>
+                                            <div class="time-option">01:30</div>
+                                            <div class="time-option">01:40</div>
+                                            <div class="time-option">01:50</div>
+                                            <div class="time-option">02:00</div>
+                                            <div class="time-option">02:10</div>
+                                            <div class="time-option">02:20</div>
+                                            <div class="time-option">02:30</div>
+                                            <div class="time-option">02:40</div>
+                                            <div class="time-option">02:50</div>
+                                            <div class="time-option">03:00</div>
+                                            <div class="time-option">03:10</div>
+                                            <div class="time-option">03:20</div>
+                                            <div class="time-option">03:30</div>
+                                            <div class="time-option">03:40</div>
+                                            <div class="time-option">03:50</div>
+                                            <div class="time-option">04:00</div>
+                                            <div class="time-option">04:10</div>
+                                            <div class="time-option">04:20</div>
+                                            <div class="time-option">04:30</div>
+                                            <div class="time-option">04:40</div>
+                                            <div class="time-option">04:50</div>
+                                            <div class="time-option">05:00</div>
+                                            <div class="time-option">05:10</div>
+                                            <div class="time-option">05:20</div>
+                                            <div class="time-option">05:30</div>
+                                            <div class="time-option">05:40</div>
+                                            <div class="time-option">05:50</div>
+                                            <div class="time-option">06:00</div>
+                                            <div class="time-option">06:10</div>
+                                            <div class="time-option">06:20</div>
+                                            <div class="time-option">06:30</div>
+                                            <div class="time-option">06:40</div>
+                                            <div class="time-option">06:50</div>
+                                            <div class="time-option">07:00</div>
+                                            <div class="time-option">07:10</div>
+                                            <div class="time-option">07:20</div>
+                                            <div class="time-option">07:30</div>
+                                            <div class="time-option">07:40</div>
+                                            <div class="time-option">07:50</div>
+                                            <div class="time-option">08:00</div>
+                                            <div class="time-option">08:10</div>
+                                            <div class="time-option">08:20</div>
+                                            <div class="time-option">08:30</div>
+                                            <div class="time-option">08:40</div>
+                                            <div class="time-option">08:50</div>
+                                            <div class="time-option">09:00</div>
+                                            <div class="time-option">09:10</div>
+                                            <div class="time-option">09:20</div>
+                                            <div class="time-option">09:30</div>
+                                            <div class="time-option">09:40</div>
+                                            <div class="time-option">09:50</div>
+                                            <div class="time-option">10:00</div>
+                                            <div class="time-option">10:10</div>
+                                            <div class="time-option">10:20</div>
+                                            <div class="time-option">10:30</div>
+                                            <div class="time-option">10:40</div>
+                                            <div class="time-option">10:50</div>
+                                            <div class="time-option">11:00</div>
+                                            <div class="time-option">11:10</div>
+                                            <div class="time-option">11:20</div>
+                                            <div class="time-option">11:30</div>
+                                            <div class="time-option">11:40</div>
+                                            <div class="time-option">11:50</div>
+                                            <div class="time-option">12:00</div>
+                                            <div class="time-option">12:10</div>
+                                            <div class="time-option">12:20</div>
+                                            <div class="time-option">12:30</div>
+                                            <div class="time-option">12:40</div>
+                                            <div class="time-option">12:50</div>
+                                            <div class="time-option">13:00</div>
+                                            <div class="time-option">13:10</div>
+                                            <div class="time-option">13:20</div>
+                                            <div class="time-option">13:30</div>
+                                            <div class="time-option">13:40</div>
+                                            <div class="time-option">13:50</div>
+                                            <div class="time-option">14:00</div>
+                                            <div class="time-option">14:10</div>
+                                            <div class="time-option">14:20</div>
+                                            <div class="time-option">14:30</div>
+                                            <div class="time-option">14:40</div>
+                                            <div class="time-option">14:50</div>
+                                            <div class="time-option">15:00</div>
+                                            <div class="time-option">15:10</div>
+                                            <div class="time-option">15:20</div>
+                                            <div class="time-option">15:30</div>
+                                            <div class="time-option">15:40</div>
+                                            <div class="time-option">15:50</div>
+                                            <div class="time-option">16:00</div>
+                                            <div class="time-option">16:10</div>
+                                            <div class="time-option">16:20</div>
+                                            <div class="time-option">16:30</div>
+                                            <div class="time-option">16:40</div>
+                                            <div class="time-option">16:50</div>
+                                            <div class="time-option">17:00</div>
+                                            <div class="time-option">17:10</div>
+                                            <div class="time-option">17:20</div>
+                                            <div class="time-option">17:30</div>
+                                            <div class="time-option">17:40</div>
+                                            <div class="time-option">17:50</div>
+                                            <div class="time-option">18:00</div>
+                                            <div class="time-option">18:10</div>
+                                            <div class="time-option">18:20</div>
+                                            <div class="time-option">18:30</div>
+                                            <div class="time-option">18:40</div>
+                                            <div class="time-option">18:50</div>
+                                            <div class="time-option">19:00</div>
+                                            <div class="time-option">19:10</div>
+                                            <div class="time-option">19:20</div>
+                                            <div class="time-option">19:30</div>
+                                            <div class="time-option">19:40</div>
+                                            <div class="time-option">19:50</div>
+                                            <div class="time-option">20:00</div>
+                                            <div class="time-option">20:10</div>
+                                            <div class="time-option">20:20</div>
+                                            <div class="time-option">20:30</div>
+                                            <div class="time-option">20:40</div>
+                                            <div class="time-option">20:50</div>
+                                            <div class="time-option">21:00</div>
+                                            <div class="time-option">21:10</div>
+                                            <div class="time-option">21:20</div>
+                                            <div class="time-option">21:30</div>
+                                            <div class="time-option">21:40</div>
+                                            <div class="time-option">21:50</div>
+                                            <div class="time-option">22:00</div>
+                                            <div class="time-option">22:10</div>
+                                            <div class="time-option">22:20</div>
+                                            <div class="time-option">22:30</div>
+                                            <div class="time-option">22:40</div>
+                                            <div class="time-option">22:50</div>
+                                            <div class="time-option">23:00</div>
+                                            <div class="time-option">23:10</div>
+                                            <div class="time-option">23:20</div>
+                                            <div class="time-option">23:30</div>
+                                            <div class="time-option">23:40</div>
+                                            <div class="time-option">23:50</div>
+                                        </div>
+                                    </div>
+
+                                    <span data-i18n="manage_tab_schedule_left_to">to</span>
+                                    <div>
+                                        <input type="text" class="end-time" placeholder="end" value="12:00"
+                                            data-time="12:00">
+                                        <div class="schedule-options end-time-option hidden">
+                                            <div class="time-option">00:00</div>
+                                            <div class="time-option">00:10</div>
+                                            <div class="time-option">00:20</div>
+                                            <div class="time-option">00:30</div>
+                                            <div class="time-option">00:40</div>
+                                            <div class="time-option">00:50</div>
+                                            <div class="time-option">01:10</div>
+                                            <div class="time-option">01:20</div>
+                                            <div class="time-option">01:30</div>
+                                            <div class="time-option">01:40</div>
+                                            <div class="time-option">01:50</div>
+                                            <div class="time-option">02:00</div>
+                                            <div class="time-option">02:10</div>
+                                            <div class="time-option">02:20</div>
+                                            <div class="time-option">02:30</div>
+                                            <div class="time-option">02:40</div>
+                                            <div class="time-option">02:50</div>
+                                            <div class="time-option">03:00</div>
+                                            <div class="time-option">03:10</div>
+                                            <div class="time-option">03:20</div>
+                                            <div class="time-option">03:30</div>
+                                            <div class="time-option">03:40</div>
+                                            <div class="time-option">03:50</div>
+                                            <div class="time-option">04:00</div>
+                                            <div class="time-option">04:10</div>
+                                            <div class="time-option">04:20</div>
+                                            <div class="time-option">04:30</div>
+                                            <div class="time-option">04:40</div>
+                                            <div class="time-option">04:50</div>
+                                            <div class="time-option">05:00</div>
+                                            <div class="time-option">05:10</div>
+                                            <div class="time-option">05:20</div>
+                                            <div class="time-option">05:30</div>
+                                            <div class="time-option">05:40</div>
+                                            <div class="time-option">05:50</div>
+                                            <div class="time-option">06:00</div>
+                                            <div class="time-option">06:10</div>
+                                            <div class="time-option">06:20</div>
+                                            <div class="time-option">06:30</div>
+                                            <div class="time-option">06:40</div>
+                                            <div class="time-option">06:50</div>
+                                            <div class="time-option">07:00</div>
+                                            <div class="time-option">07:10</div>
+                                            <div class="time-option">07:20</div>
+                                            <div class="time-option">07:30</div>
+                                            <div class="time-option">07:40</div>
+                                            <div class="time-option">07:50</div>
+                                            <div class="time-option">08:00</div>
+                                            <div class="time-option">08:10</div>
+                                            <div class="time-option">08:20</div>
+                                            <div class="time-option">08:30</div>
+                                            <div class="time-option">08:40</div>
+                                            <div class="time-option">08:50</div>
+                                            <div class="time-option">09:00</div>
+                                            <div class="time-option">09:10</div>
+                                            <div class="time-option">09:20</div>
+                                            <div class="time-option">09:30</div>
+                                            <div class="time-option">09:40</div>
+                                            <div class="time-option">09:50</div>
+                                            <div class="time-option">10:00</div>
+                                            <div class="time-option">10:10</div>
+                                            <div class="time-option">10:20</div>
+                                            <div class="time-option">10:30</div>
+                                            <div class="time-option">10:40</div>
+                                            <div class="time-option">10:50</div>
+                                            <div class="time-option">11:00</div>
+                                            <div class="time-option">11:10</div>
+                                            <div class="time-option">11:20</div>
+                                            <div class="time-option">11:30</div>
+                                            <div class="time-option">11:40</div>
+                                            <div class="time-option">11:50</div>
+                                            <div class="time-option">12:00</div>
+                                            <div class="time-option">12:10</div>
+                                            <div class="time-option">12:20</div>
+                                            <div class="time-option">12:30</div>
+                                            <div class="time-option">12:40</div>
+                                            <div class="time-option">12:50</div>
+                                            <div class="time-option">13:00</div>
+                                            <div class="time-option">13:10</div>
+                                            <div class="time-option">13:20</div>
+                                            <div class="time-option">13:30</div>
+                                            <div class="time-option">13:40</div>
+                                            <div class="time-option">13:50</div>
+                                            <div class="time-option">14:00</div>
+                                            <div class="time-option">14:10</div>
+                                            <div class="time-option">14:20</div>
+                                            <div class="time-option">14:30</div>
+                                            <div class="time-option">14:40</div>
+                                            <div class="time-option">14:50</div>
+                                            <div class="time-option">15:00</div>
+                                            <div class="time-option">15:10</div>
+                                            <div class="time-option">15:20</div>
+                                            <div class="time-option">15:30</div>
+                                            <div class="time-option">15:40</div>
+                                            <div class="time-option">15:50</div>
+                                            <div class="time-option">16:00</div>
+                                            <div class="time-option">16:10</div>
+                                            <div class="time-option">16:20</div>
+                                            <div class="time-option">16:30</div>
+                                            <div class="time-option">16:40</div>
+                                            <div class="time-option">16:50</div>
+                                            <div class="time-option">17:00</div>
+                                            <div class="time-option">17:10</div>
+                                            <div class="time-option">17:20</div>
+                                            <div class="time-option">17:30</div>
+                                            <div class="time-option">17:40</div>
+                                            <div class="time-option">17:50</div>
+                                            <div class="time-option">18:00</div>
+                                            <div class="time-option">18:10</div>
+                                            <div class="time-option">18:20</div>
+                                            <div class="time-option">18:30</div>
+                                            <div class="time-option">18:40</div>
+                                            <div class="time-option">18:50</div>
+                                            <div class="time-option">19:00</div>
+                                            <div class="time-option">19:10</div>
+                                            <div class="time-option">19:20</div>
+                                            <div class="time-option">19:30</div>
+                                            <div class="time-option">19:40</div>
+                                            <div class="time-option">19:50</div>
+                                            <div class="time-option">20:00</div>
+                                            <div class="time-option">20:10</div>
+                                            <div class="time-option">20:20</div>
+                                            <div class="time-option">20:30</div>
+                                            <div class="time-option">20:40</div>
+                                            <div class="time-option">20:50</div>
+                                            <div class="time-option">21:00</div>
+                                            <div class="time-option">21:10</div>
+                                            <div class="time-option">21:20</div>
+                                            <div class="time-option">21:30</div>
+                                            <div class="time-option">21:40</div>
+                                            <div class="time-option">21:50</div>
+                                            <div class="time-option">22:00</div>
+                                            <div class="time-option">22:10</div>
+                                            <div class="time-option">22:20</div>
+                                            <div class="time-option">22:30</div>
+                                            <div class="time-option">22:40</div>
+                                            <div class="time-option">22:50</div>
+                                            <div class="time-option">23:00</div>
+                                            <div class="time-option">23:10</div>
+                                            <div class="time-option">23:20</div>
+                                            <div class="time-option">23:30</div>
+                                            <div class="time-option">23:40</div>
+                                            <div class="time-option">23:50</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <img src="img/not-allowed.png" alt="delete interval" class="delete-interval">
+                            </div>
+
+                        </div>
+                        <div class="set-day">
+                            <h3 data-i18n="manage_tab_schedule_left_days">
+                                SELECTED DAYS
+                            </h3>
+                            <ul class="schedule-days">
+                                <li class="active" name="0">su</li>
+                                <li class="active" name="1">mo</li>
+                                <li class="active" name="2">tu</li>
+                                <li class="active" name="3">we</li>
+                                <li class="active" name="4">th</li>
+                                <li class="active" name="5">fr</li>
+                                <li class="active" name="6">sa</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-buttons-container">
+                            <button class="set-schedule" type="button" data-time="manage_tab_schedule_left_btn_domain">
+                                Apply for this domain
+                            </button>
+                            <button class="set-schedule-all" type="button" data-i18n="manage_tab_schedule_left_btn_blocked">
+                                Apply for all blocked
+                            </button>
+                        </div>
+
+                    </div>
+                    <ul class="scheduled-domains-list">
+                    </ul>
+                </div>
+
+            </section>
+
+            <section id='content3'>
+                <hgroup>
+                    <h1 class="content-header" data-i18n="manage_tab_cats_title">
+                        Block Categories
+                    </h1>
+                    <h2 class="content-description" data-i18n="manage_tab_cats_desc">
+                        Choose domain categories that won't be shown during your web surfing.
+                    </h2>
+                </hgroup>
+                <ul class="block-categories">
+                    <li data-i18n="manage_tab_cats_1">aggressive</li>
+                    <li data-i18n="manage_tab_cats_2">alcohol</li>
+                    <li data-i18n="manage_tab_cats_3">dating</li>
+                    <li data-i18n="manage_tab_cats_4">downloads</li>
+                    <li data-i18n="manage_tab_cats_5">drugs</li>
+                    <li data-i18n="manage_tab_cats_6">gamble</li>
+                    <li data-i18n="manage_tab_cats_7">hacking</li>
+                    <li data-i18n="manage_tab_cats_8">movies</li>
+                    <li data-i18n="manage_tab_cats_9">music</li>
+                    <li data-i18n="manage_tab_cats_10">politics</li>
+                    <li data-i18n="manage_tab_cats_11">porn</li>
+                    <li data-i18n="manage_tab_cats_12">shopping</li>
+                    <li data-i18n="manage_tab_cats_13">socialnet</li>
+                    <li data-i18n="manage_tab_cats_14">spyware</li>
+                    <li data-i18n="manage_tab_cats_15">violence</li>
+                    <li data-i18n="manage_tab_cats_16">weapons</li>
+                </ul>
+                <button class="save-categories">save</button>
+            </section>
+            <section id='content4'>
+                <hgroup>
+                    <h1 class="content-header" data-i18n="manage_tab_words_title">Blocking by Words</h1>
+                    <h2 class="content-description" data-i18n="manage_tab_words_desc">Add separate words or phrase <br/>to block all domains contain related content. </h2>
+                </hgroup>
+                <div class="main-input">
+                    <input type="text" placeholder="Input a word or a phrase" id="block-word">
+                    <i class="fas fa-plus add"></i>
+                </div>
+                <ul class="blocked-words"></ul>
+            </section>
+            <section id='content5'>
+                <hgroup>
+                    <h1 class="content-header" data-i18n="manage_tab_white_title">
+                        White Listed Sites
+                    </h1>
+                    <h2 class="content-description" data-i18n="manage_tab_white_desc">
+                        Sites from this list avoid all blocking settings.
+                    </h2>
+                </hgroup>
+                <div class="main-input">
+                    <input type="text" placeholder="Input white site" id="white-list">
+                    <i class="fas fa-plus add"></i>
+                </div>
+                <ul class="white-list"></ul>
+            </section>
+        </section>
+
+
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/Localize.js"></script>
+    <script src="js/manage-sites-tabs.js"></script>
+    <script src="js/manage-sites.js"></script>
+</body>
+
+</html>

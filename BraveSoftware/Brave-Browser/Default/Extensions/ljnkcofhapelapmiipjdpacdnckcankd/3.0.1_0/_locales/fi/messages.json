@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Suojaa aikaasi ja kokemustasi estämällä jätteiden verkkosivustot."
+   },
+   "app_name": {
+      "message": "Estä sivusto"
+   },
+   "manage_tab_block": {
+      "message": "Estä sivustot"
+   },
+   "manage_tab_block_decs": {
+      "message": "Estä yksi tai useampi verkkosivusto lisäämällä tarkka verkkotunnus. \u003Cbr/> Nauti aikaasi tuhlaamatta verkkosivustoja."
+   },
+   "manage_tab_block_input": {
+      "message": "Kirjoita verkko-osoite (esimerkiksi: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Estä luokkien mukaan"
+   },
+   "manage_tab_cats_1": {
+      "message": "aggressiivinen"
+   },
+   "manage_tab_cats_10": {
+      "message": "politiikka"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "ostokset"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "vakoiluohjelma"
+   },
+   "manage_tab_cats_15": {
+      "message": "väkivalta"
+   },
+   "manage_tab_cats_16": {
+      "message": "aseet"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkoholi"
+   },
+   "manage_tab_cats_3": {
+      "message": "dating"
+   },
+   "manage_tab_cats_4": {
+      "message": "lataukset"
+   },
+   "manage_tab_cats_5": {
+      "message": "huumeita"
+   },
+   "manage_tab_cats_6": {
+      "message": "uhkapeli"
+   },
+   "manage_tab_cats_7": {
+      "message": "hakkerointi"
+   },
+   "manage_tab_cats_8": {
+      "message": "elokuvat"
+   },
+   "manage_tab_cats_9": {
+      "message": "musiikki"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Tallentaa"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Valitse verkkotunnusluokat, joita ei näytetä web-surffailun aikana."
+   },
+   "manage_tab_cats_title": {
+      "message": "Estä luokat"
+   },
+   "manage_tab_schedule": {
+      "message": "Aikataulun estäminen"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Käytä erillistä estoaikataulua jokaiselle verkkosivustolle \u003Cbr/> tai määritä aikataulu kaikille estettyille verkkotunnuksille kerralla."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Asenna estoaikataulu"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Lisää väli"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Käytä kaikkia estettyjä"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Hae tätä verkkotunnusta"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "VALITUT PÄIVÄT"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "ASETA AJAT"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "että"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Työjärjestys"
+   },
+   "manage_tab_white": {
+      "message": "Sivuston valkoinen lista"
+   },
+   "manage_tab_white_desc": {
+      "message": "Tämän luettelon sivustot välttävät kaikki estoasetukset."
+   },
+   "manage_tab_white_input": {
+      "message": "Syötä valkoinen sivusto"
+   },
+   "manage_tab_white_title": {
+      "message": "Valkoiset listatut sivustot"
+   },
+   "manage_tab_words": {
+      "message": "Estä sanat"
+   },
+   "manage_tab_words_desc": {
+      "message": "Lisää erillisiä sanoja tai lauseita \u003Cbr/> estääksesi kaikki verkkotunnukset sisältävät niihin liittyvää sisältöä."
+   },
+   "manage_tab_words_input": {
+      "message": "Syötä sana tai lause"
+   },
+   "manage_tab_words_title": {
+      "message": "Estäminen sanoilla"
+   },
+   "popup_btn_block": {
+      "message": "Estä nykyinen sivusto"
+   },
+   "popup_btn_manage": {
+      "message": "Hallitse estettyjä sivustoja"
+   },
+   "popup_label_rate": {
+      "message": "Ole hyvä ja arvioi meitä!"
+   },
+   "popup_not_avail": {
+      "message": "Tätä sivua ei voida estää"
+   },
+   "redirect_message": {
+      "message": "Tämä sivusto on estetty. Älä yritä muuttaa sitä!"
+   },
+   "redirect_title": {
+      "message": "Sivusto on estetty"
+   }
+}

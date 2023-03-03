@@ -1,0 +1,149 @@
+{
+  "app_name": {
+    "message": "I-block ang Site"
+  },
+  "app_description": {
+    "message": "Protektahan ang iyong oras at karanasan sa pamamagitan ng pagharang ng mga website ng basura."
+  },
+  "redirect_title": {
+    "message": "Naka-block ang Site"
+  },
+  "redirect_message": {
+    "message": "Na-block ang site na ito. Huwag subukan na baguhin ito!"
+  },
+  "popup_btn_manage": {
+    "message": "Pamahalaan ang mga naka-block na mga site"
+  },
+  "popup_btn_block": {
+    "message": "I-block ang kasalukuyang site"
+  },
+  "popup_not_avail": {
+    "message": "Hindi magagamit ang site na ito para sa pag-block"
+  },
+  "manage_tab_block": {
+    "message": "I-block ang mga Site"
+  },
+  "manage_tab_block_decs": {
+    "message": "Harangan ang isa o maraming mga website sa pamamagitan ng pagdaragdag ng tumpak na pangalan ng domain. <br/> Masiyahan sa iyong oras nang walang nasayang na mga website."
+  },
+  "manage_tab_block_input": {
+    "message": "Magpasok ng isang web address (ex: google.com)"
+  },
+  "manage_tab_schedule": {
+    "message": "Iskedyul ng Pag-block"
+  },
+  "manage_tab_schedule_title": {
+    "message": "Oras ng trabaho"
+  },
+  "manage_tab_schedule_desc": {
+    "message": "Mag-apply ng iskedyul ng pagharang ng indibidwal para sa bawat website <br/> o mag-set up ng iskedyul para sa lahat ng mga naka-block na domain nang sabay-sabay."
+  },
+  "manage_tab_schedule_left": {
+    "message": "I-set up ang Iskedyul ng Pag-block"
+  },
+  "manage_tab_schedule_left_times": {
+    "message": "PAGKATUTO NG PANAHON"
+  },
+  "manage_tab_schedule_left_to": {
+    "message": "sa"
+  },
+  "manage_tab_schedule_left_add_time": {
+    "message": "Magdagdag ng Interval"
+  },
+  "manage_tab_schedule_left_days": {
+    "message": "MGA PINILI NA ARAW"
+  },
+  "manage_tab_schedule_left_btn_domain": {
+    "message": "Mag-apply para sa domain na ito"
+  },
+  "manage_tab_schedule_left_btn_blocked": {
+    "message": "Mag-apply para sa lahat ng naka-block"
+  },
+  "manage_tab_cats": {
+    "message": "I-block sa pamamagitan ng Mga Kategorya"
+  },
+  "manage_tab_cats_title": {
+    "message": "I-block ang Mga Kategorya"
+  },
+  "manage_tab_cats_desc": {
+    "message": "Pumili ng mga kategorya ng domain na hindi maipakita sa iyong web surfing."
+  },
+  "manage_tab_cats_1": {
+    "message": "agresibo"
+  },
+  "manage_tab_cats_2": {
+    "message": "alkohol"
+  },
+  "manage_tab_cats_3": {
+    "message": "pakikipag-date"
+  },
+  "manage_tab_cats_4": {
+    "message": "pag-download"
+  },
+  "manage_tab_cats_5": {
+    "message": "gamot"
+  },
+  "manage_tab_cats_6": {
+    "message": "sumugal"
+  },
+  "manage_tab_cats_7": {
+    "message": "pag-hack"
+  },
+  "manage_tab_cats_8": {
+    "message": "mga pelikula"
+  },
+  "manage_tab_cats_9": {
+    "message": "musika"
+  },
+  "manage_tab_cats_10": {
+    "message": "pulitika"
+  },
+  "manage_tab_cats_11": {
+    "message": "porn"
+  },
+  "manage_tab_cats_12": {
+    "message": "pamimili"
+  },
+  "manage_tab_cats_13": {
+    "message": "socialnet"
+  },
+  "manage_tab_cats_14": {
+    "message": "spyware"
+  },
+  "manage_tab_cats_15": {
+    "message": "karahasan"
+  },
+  "manage_tab_cats_16": {
+    "message": "armas"
+  },
+  "manage_tab_cats_btn_save": {
+    "message": "I-save"
+  },
+  "manage_tab_words": {
+    "message": "I-block sa pamamagitan ng Mga Salita"
+  },
+  "manage_tab_words_title": {
+    "message": "Paghaharang sa Mga Salita"
+  },
+  "manage_tab_words_desc": {
+    "message": "Magdagdag ng hiwalay na mga salita o parirala <br/> upang harangan ang lahat ng mga domain ay naglalaman ng mga kaugnay na nilalaman."
+  },
+  "manage_tab_words_input": {
+    "message": "Mag-input ng isang salita o parirala"
+  },
+  "manage_tab_white": {
+    "message": "Listahan ng Puti ng Site"
+  },
+  "manage_tab_white_title": {
+    "message": "Mga nakalistang Site ng Puti"
+  },
+  "manage_tab_white_desc": {
+    "message": "Iwasan ang mga site mula sa listahang ito sa lahat ng mga setting ng pag-block."
+  },
+  "manage_tab_white_input": {
+    "message": "Input puting site"
+  },
+  "popup_label_rate": {
+    "message": "Paki-rate sa Amin!"
+  }
+}

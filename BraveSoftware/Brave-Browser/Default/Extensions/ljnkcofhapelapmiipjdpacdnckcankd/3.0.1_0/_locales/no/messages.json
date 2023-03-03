@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Beskytt din tid og erfaring ved å blokkere avfallsnettsteder."
+   },
+   "app_name": {
+      "message": "Blokker nettsted"
+   },
+   "manage_tab_block": {
+      "message": "Blokker nettsteder"
+   },
+   "manage_tab_block_decs": {
+      "message": "Blokkerer ett eller flere nettsteder ved å legge til nøyaktig domenenavn. \u003Cbr/> Kos deg med tiden din uten bortkastede nettsteder."
+   },
+   "manage_tab_block_input": {
+      "message": "Skriv inn en nettadresse (eks: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blokker etter kategorier"
+   },
+   "manage_tab_cats_1": {
+      "message": "aggressiv"
+   },
+   "manage_tab_cats_10": {
+      "message": "politikk"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "kjøpesenter"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "vold"
+   },
+   "manage_tab_cats_16": {
+      "message": "våpen"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "dating"
+   },
+   "manage_tab_cats_4": {
+      "message": "nedlastinger"
+   },
+   "manage_tab_cats_5": {
+      "message": "narkotika"
+   },
+   "manage_tab_cats_6": {
+      "message": "spille"
+   },
+   "manage_tab_cats_7": {
+      "message": "hacking"
+   },
+   "manage_tab_cats_8": {
+      "message": "filmer"
+   },
+   "manage_tab_cats_9": {
+      "message": "musikk"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Lagre"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Velg domenekategorier som ikke vil vises under surfing på nettet."
+   },
+   "manage_tab_cats_title": {
+      "message": "Blokker kategorier"
+   },
+   "manage_tab_schedule": {
+      "message": "Blokkeringsplan"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Bruk individuell blokkeringsplan for hvert nettsted \u003Cbr/> eller sett opp plan for alle blokkerte domener samtidig."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Sett opp blokkeringsplan"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Legg til intervall"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Søk om alle blokkerte"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Søk om dette domenet"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "VALGTE DAGER"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "STILL TIDER"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "til"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Arbeidsplan"
+   },
+   "manage_tab_white": {
+      "message": "Nettstedets hvite liste"
+   },
+   "manage_tab_white_desc": {
+      "message": "Nettsteder fra denne listen unngår alle blokkeringsinnstillinger."
+   },
+   "manage_tab_white_input": {
+      "message": "Angi hvitt sted"
+   },
+   "manage_tab_white_title": {
+      "message": "Hvitlistede nettsteder"
+   },
+   "manage_tab_words": {
+      "message": "Block by Words"
+   },
+   "manage_tab_words_desc": {
+      "message": "Legg til separate ord eller uttrykk \u003Cbr/> for å blokkere alle domener inneholder relatert innhold."
+   },
+   "manage_tab_words_input": {
+      "message": "Skriv inn et ord eller en setning"
+   },
+   "manage_tab_words_title": {
+      "message": "Blokkering av ord"
+   },
+   "popup_btn_block": {
+      "message": "Blokkerer gjeldende side"
+   },
+   "popup_btn_manage": {
+      "message": "Administrer blokkerte nettsteder"
+   },
+   "popup_label_rate": {
+      "message": "Vennligst ranger oss!"
+   },
+   "popup_not_avail": {
+      "message": "Dette nettstedet er ikke tilgjengelig for blokkering"
+   },
+   "redirect_message": {
+      "message": "Dette nettstedet er blokkert. Ikke prøv å endre det!"
+   },
+   "redirect_title": {
+      "message": "Nettstedet er blokkert"
+   }
+}

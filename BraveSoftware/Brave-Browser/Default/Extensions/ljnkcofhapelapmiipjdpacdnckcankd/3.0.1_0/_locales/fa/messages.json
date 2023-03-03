@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "با مسدود کردن وب سایت های زباله از زمان و تجربه خود محافظت کنید."
+   },
+   "app_name": {
+      "message": "بلوک سایت"
+   },
+   "manage_tab_block": {
+      "message": "سایتهای بلوک"
+   },
+   "manage_tab_block_decs": {
+      "message": "با اضافه کردن نام دامنه دقیق ، یک یا چند وب سایت را مسدود کنید. \u003Cbr/> بدون داشتن وب سایت های تلف شده از وقت خود لذت ببرید."
+   },
+   "manage_tab_block_input": {
+      "message": "آدرس وب را وارد کنید (به عنوان مثال: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "مسدود کردن بر اساس دسته بندی ها"
+   },
+   "manage_tab_cats_1": {
+      "message": "خشونت آمیز"
+   },
+   "manage_tab_cats_10": {
+      "message": "سیاست"
+   },
+   "manage_tab_cats_11": {
+      "message": "پورنو"
+   },
+   "manage_tab_cats_12": {
+      "message": "خريد كردن"
+   },
+   "manage_tab_cats_13": {
+      "message": "شبکه اجتماعی"
+   },
+   "manage_tab_cats_14": {
+      "message": "جاسوسی"
+   },
+   "manage_tab_cats_15": {
+      "message": "خشونت"
+   },
+   "manage_tab_cats_16": {
+      "message": "اسلحه"
+   },
+   "manage_tab_cats_2": {
+      "message": "الکل"
+   },
+   "manage_tab_cats_3": {
+      "message": "دوستیابی"
+   },
+   "manage_tab_cats_4": {
+      "message": "بارگیری"
+   },
+   "manage_tab_cats_5": {
+      "message": "مواد مخدر"
+   },
+   "manage_tab_cats_6": {
+      "message": "قمار"
+   },
+   "manage_tab_cats_7": {
+      "message": "هک کردن"
+   },
+   "manage_tab_cats_8": {
+      "message": "فیلم ها"
+   },
+   "manage_tab_cats_9": {
+      "message": "موسیقی"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "صرفه جویی"
+   },
+   "manage_tab_cats_desc": {
+      "message": "دسته دامنه را انتخاب کنید که در هنگام گشت و گذار در وب نشان داده نشوند."
+   },
+   "manage_tab_cats_title": {
+      "message": "دسته بندی های بلوک"
+   },
+   "manage_tab_schedule": {
+      "message": "برنامه مسدود کردن"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "برنامه مسدود کردن فردی را برای هر وب سایت اعمال کنید \u003Cbr/> یا برنامه ای را برای همه دامنههای مسدود شده به طور همزمان تنظیم کنید."
+   },
+   "manage_tab_schedule_left": {
+      "message": "برنامه مسدود کردن برنامه تنظیم کنید"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "فاصله را اضافه کنید"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "درخواست برای همه مسدود شده است"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "برای این دامنه اقدام کنید"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "روزهای منتخب"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "تنظیم زمان"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "به"
+   },
+   "manage_tab_schedule_title": {
+      "message": "برنامه کاری"
+   },
+   "manage_tab_white": {
+      "message": "لیست سفید سایت"
+   },
+   "manage_tab_white_desc": {
+      "message": "سایتهای این لیست از تنظیمات مسدود کردن جلوگیری می کنند."
+   },
+   "manage_tab_white_input": {
+      "message": "ورودی سایت سفید"
+   },
+   "manage_tab_white_title": {
+      "message": "سایت های دارای لیست سفید"
+   },
+   "manage_tab_words": {
+      "message": "مسدود کردن توسط Words"
+   },
+   "manage_tab_words_desc": {
+      "message": "کلمات یا عبارت جداگانه اضافه کنید \u003Cbr/> برای مسدود کردن همه دامنه ها حاوی محتوای مرتبط هستند."
+   },
+   "manage_tab_words_input": {
+      "message": "کلمه یا عبارت را وارد کنید"
+   },
+   "manage_tab_words_title": {
+      "message": "مسدود کردن توسط Words"
+   },
+   "popup_btn_block": {
+      "message": "سایت فعلی را مسدود کنید"
+   },
+   "popup_btn_manage": {
+      "message": "سایتهای مسدود شده را مدیریت کنید"
+   },
+   "popup_label_rate": {
+      "message": "لطفا به ما امتیاز دهید"
+   },
+   "popup_not_avail": {
+      "message": "این سایت برای مسدود کردن در دسترس نیست"
+   },
+   "redirect_message": {
+      "message": "این سایت مسدود شده است سعی نکنید آن را تغییر دهید!"
+   },
+   "redirect_title": {
+      "message": "سایت مسدود شده است"
+   }
+}

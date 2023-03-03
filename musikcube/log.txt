@@ -1,0 +1,335 @@
+21:56:16 [info] [LOG SESSION] ---------- START ----------
+21:56:16 [info] [PluginFactory] loading plugins
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+21:56:16 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+21:56:17 [info] [PortAudioOut] Pa_Initialize() return code: 0
+21:56:17 [info] [PipeWireOut] shutdown started
+21:56:17 [info] [PipeWireOut] shutdown complete
+21:56:17 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+21:56:17 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+21:56:17 [info] [PortAudioOut] Pa_Terminate() return code: 0
+21:56:17 [info] [Indexer] indexer source -1303229654 running...
+21:56:17 [info] [Indexer] indexer source -1303229654 finished
+21:56:17 [info] [Indexer] indexer source 155697690 running...
+21:56:17 [info] [Indexer] indexer source 155697690 finished
+21:56:17 [info] [Indexer] scanning /home/kobruh/Music/
+21:56:17 [info] [Indexer] scan completed successfully
+21:56:17 [info] [Indexer] cleanup 1/2
+21:56:17 [info] [Indexer] cleanup 2/2
+21:56:17 [info] [Indexer] optimizing
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+21:56:17 [info] [Indexer] done!
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+21:56:17 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+21:56:17 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:17 [info] [GaplessTransport] starting track at /home/kobruh/Music/Money.mp3
+21:56:17 [info] [Player] new instance created
+21:56:17 [info] [GaplessTransport] stop
+21:56:17 [info] [Stream] opening /home/kobruh/Music/Money.mp3
+21:56:17 [info] [LocalFileStream] opening file: /home/kobruh/Music/Money.mp3
+21:56:17 [info] [ffmpegdecoder] parsing data stream...
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:17 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:17 [info] [ffmpegdecoder] found audio stream!
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+21:56:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:17 [info] [Streams] found a decoder for /home/kobruh/Music/Money.mp3
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+21:56:17 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:19 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:20 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Crazy Little Thing Called Love (Official Video).mp3
+21:56:20 [info] [Player] new instance created
+21:56:20 [info] [GaplessTransport] stop
+21:56:20 [info] [Stream] opening /home/kobruh/Music/Queen - Crazy Little Thing Called Love (Official Video).mp3
+21:56:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Crazy Little Thing Called Love (Official Video).mp3
+21:56:20 [info] [ffmpegdecoder] parsing data stream...
+21:56:20 [info] [ffmpegdecoder] found audio stream!
+21:56:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:20 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Crazy Little Thing Called Love (Official Video).mp3
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:20 [info] [Player] new instance created
+21:56:20 [info] [Stream] opening /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:20 [info] [ffmpegdecoder] parsing data stream...
+21:56:20 [info] [ffmpegdecoder] found audio stream!
+21:56:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:20 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:23 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:23 [info] [Player] new instance created
+21:56:23 [info] [GaplessTransport] stop
+21:56:23 [info] [Stream] opening /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:23 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:23 [info] [ffmpegdecoder] parsing data stream...
+21:56:23 [info] [ffmpegdecoder] found audio stream!
+21:56:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:23 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Dont Stop Me Now (Official Video).mp3
+21:56:24 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:24 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:24 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:24 [info] [Player] new instance created
+21:56:24 [info] [Stream] opening /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [ffmpegdecoder] parsing data stream...
+21:56:24 [info] [ffmpegdecoder] found audio stream!
+21:56:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:24 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [Player] new instance created
+21:56:24 [info] [GaplessTransport] stop
+21:56:24 [info] [Stream] opening /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:24 [info] [ffmpegdecoder] parsing data stream...
+21:56:24 [info] [ffmpegdecoder] found audio stream!
+21:56:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:24 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Good Old Fashioned Lover Boy (Top Of The Pops 1977).mp3
+21:56:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:25 [info] [Player] new instance created
+21:56:25 [info] [Stream] opening /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [ffmpegdecoder] parsing data stream...
+21:56:25 [info] [ffmpegdecoder] found audio stream!
+21:56:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:25 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [Player] new instance created
+21:56:25 [info] [GaplessTransport] stop
+21:56:25 [info] [Stream] opening /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:25 [info] [ffmpegdecoder] parsing data stream...
+21:56:25 [info] [ffmpegdecoder] found audio stream!
+21:56:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:25 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Seaside Rendezvous (Official Lyric Video).mp3
+21:56:26 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:26 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:26 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:26 [info] [Player] new instance created
+21:56:26 [info] [Stream] opening /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [ffmpegdecoder] parsing data stream...
+21:56:26 [info] [ffmpegdecoder] found audio stream!
+21:56:26 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:26 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [Player] new instance created
+21:56:26 [info] [GaplessTransport] stop
+21:56:26 [info] [Stream] opening /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:26 [info] [ffmpegdecoder] parsing data stream...
+21:56:26 [info] [ffmpegdecoder] found audio stream!
+21:56:26 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:26 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Spread Your Wings (Official Video).mp3
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:27 [info] [Player] new instance created
+21:56:27 [info] [Stream] opening /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [ffmpegdecoder] parsing data stream...
+21:56:27 [info] [ffmpegdecoder] found audio stream!
+21:56:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:27 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [Player] new instance created
+21:56:27 [info] [GaplessTransport] stop
+21:56:27 [info] [Stream] opening /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [ffmpegdecoder] parsing data stream...
+21:56:27 [info] [ffmpegdecoder] found audio stream!
+21:56:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:27 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Teo Torriatte (2005 Video).mp3
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:27 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:27 [info] [Player] new instance created
+21:56:27 [info] [Stream] opening /home/kobruh/Music/Queen - The Invisible Man (Official Video Remastered).mp3
+21:56:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - The Invisible Man (Official Video Remastered).mp3
+21:56:27 [info] [ffmpegdecoder] parsing data stream...
+21:56:27 [info] [ffmpegdecoder] found audio stream!
+21:56:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:27 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - The Invisible Man (Official Video Remastered).mp3
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+21:56:30 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:31 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+21:56:31 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+21:56:31 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:32 [info] [GaplessTransport] starting track at /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+21:56:32 [info] [Player] new instance created
+21:56:32 [info] [GaplessTransport] stop
+21:56:32 [info] [Stream] opening /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+21:56:32 [info] [LocalFileStream] opening file: /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+21:56:32 [info] [ffmpegdecoder] parsing data stream...
+21:56:32 [info] [ffmpegdecoder] found audio stream!
+21:56:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:32 [info] [Streams] found a decoder for /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:32 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:32 [info] [Player] new instance created
+21:56:32 [info] [Stream] opening /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:32 [info] [LocalFileStream] opening file: /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:32 [info] [ffmpegdecoder] parsing data stream...
+21:56:32 [info] [ffmpegdecoder] found audio stream!
+21:56:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:32 [info] [Streams] found a decoder for /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:33 [info] [GaplessTransport] starting track at /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:33 [info] [Player] new instance created
+21:56:33 [info] [GaplessTransport] stop
+21:56:33 [info] [Stream] opening /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:33 [info] [LocalFileStream] opening file: /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:33 [info] [ffmpegdecoder] parsing data stream...
+21:56:33 [info] [ffmpegdecoder] found audio stream!
+21:56:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:33 [info] [Streams] found a decoder for /home/kobruh/Music/pink floyd - another brick in the wall.mp3
+21:56:34 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:34 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:34 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:34 [info] [Player] new instance created
+21:56:34 [info] [Stream] opening /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [LocalFileStream] opening file: /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [ffmpegdecoder] parsing data stream...
+21:56:34 [info] [ffmpegdecoder] found audio stream!
+21:56:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:34 [info] [Streams] found a decoder for /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [GaplessTransport] starting track at /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [Player] new instance created
+21:56:34 [info] [GaplessTransport] stop
+21:56:34 [info] [Stream] opening /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [LocalFileStream] opening file: /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:34 [info] [ffmpegdecoder] parsing data stream...
+21:56:34 [info] [ffmpegdecoder] found audio stream!
+21:56:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:34 [info] [Streams] found a decoder for /home/kobruh/Music/PINK FLOYD - ANOTHER BRICK IN THE WALL (best piano cover).mp3
+21:56:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:35 [info] [Player] new instance created
+21:56:35 [info] [Stream] opening /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:35 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:35 [info] [ffmpegdecoder] parsing data stream...
+21:56:35 [info] [ffmpegdecoder] found audio stream!
+21:56:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:35 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:36 [info] [GaplessTransport] starting track at /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:36 [info] [Player] new instance created
+21:56:36 [info] [GaplessTransport] stop
+21:56:36 [info] [Stream] opening /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:36 [info] [LocalFileStream] opening file: /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:36 [info] [ffmpegdecoder] parsing data stream...
+21:56:36 [info] [ffmpegdecoder] found audio stream!
+21:56:36 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:36 [info] [Streams] found a decoder for /home/kobruh/Music/Queen - Another One Bites the Dust (Official Video).mp3
+21:56:36 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+21:56:36 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+21:56:36 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+21:56:36 [info] [Player] new instance created
+21:56:36 [info] [Stream] opening /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
+21:56:36 [info] [LocalFileStream] opening file: /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
+21:56:36 [info] [ffmpegdecoder] parsing data stream...
+21:56:36 [info] [ffmpegdecoder] found audio stream!
+21:56:36 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+21:56:36 [info] [Streams] found a decoder for /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
+21:57:31 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+21:57:31 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+21:57:31 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+22:00:16 [info] [ffmpegdecoder] finished decoding.
+22:00:18 [info] [GaplessTransport] stop
+22:00:18 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+22:00:18 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+22:00:18 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+22:00:18 [info] [Player] new instance created
+22:00:18 [info] [Stream] opening /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 1.mp3
+22:00:18 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 1.mp3
+22:00:18 [info] [ffmpegdecoder] parsing data stream...
+22:00:18 [info] [ffmpegdecoder] found audio stream!
+22:00:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:00:18 [info] [Streams] found a decoder for /home/kobruh/Music/Pink Floyd - Another Brick in the Wall, Pt. 1.mp3
+22:00:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+22:01:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4

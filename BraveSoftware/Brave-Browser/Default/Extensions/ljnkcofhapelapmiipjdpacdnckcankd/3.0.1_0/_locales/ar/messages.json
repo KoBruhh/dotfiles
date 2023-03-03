@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "قم بحماية وقتك وتجربتك من خلال حظر مواقع النفايات"
+   },
+   "app_name": {
+      "message": "كتلة الموقع"
+   },
+   "manage_tab_block": {
+      "message": "حجب المواقع"
+   },
+   "manage_tab_block_decs": {
+      "message": "حظر موقع واحد أو عدة مواقع عن طريق إضافة اسم نطاق دقيق. \u003Cbr/> استمتع بوقتك دون إضاعة المواقع."
+   },
+   "manage_tab_block_input": {
+      "message": "أدخل عنوان الويب (على سبيل المثال: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "كتلة حسب الفئات"
+   },
+   "manage_tab_cats_1": {
+      "message": "العدواني"
+   },
+   "manage_tab_cats_10": {
+      "message": "سياسة"
+   },
+   "manage_tab_cats_11": {
+      "message": "إباحية"
+   },
+   "manage_tab_cats_12": {
+      "message": "التسوق"
+   },
+   "manage_tab_cats_13": {
+      "message": "شبكة اجتماعية"
+   },
+   "manage_tab_cats_14": {
+      "message": "برامج التجسس"
+   },
+   "manage_tab_cats_15": {
+      "message": "عنف"
+   },
+   "manage_tab_cats_16": {
+      "message": "أسلحة"
+   },
+   "manage_tab_cats_2": {
+      "message": "كحول"
+   },
+   "manage_tab_cats_3": {
+      "message": "التعارف"
+   },
+   "manage_tab_cats_4": {
+      "message": "التحميلات"
+   },
+   "manage_tab_cats_5": {
+      "message": "المخدرات"
+   },
+   "manage_tab_cats_6": {
+      "message": "مغامرة"
+   },
+   "manage_tab_cats_7": {
+      "message": "القرصنة"
+   },
+   "manage_tab_cats_8": {
+      "message": "أفلام"
+   },
+   "manage_tab_cats_9": {
+      "message": "موسيقى"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "حفظ"
+   },
+   "manage_tab_cats_desc": {
+      "message": "اختر فئات المجال التي لن تظهر أثناء تصفح الويب الخاص بك."
+   },
+   "manage_tab_cats_title": {
+      "message": "كتلة الفئات"
+   },
+   "manage_tab_schedule": {
+      "message": "حظر الجدول"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "تطبيق جدول حظر الفردية لكل المواقع \u003Cbr/> أو إعداد جدول لجميع المجالات المحظورة في وقت واحد."
+   },
+   "manage_tab_schedule_left": {
+      "message": "إعداد جدول الحجب"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "إضافة الفاصل الزمني"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "تطبيق لجميع المحظورة"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "تقديم طلب لهذا المجال"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "أيام مختارة"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "ضبط الاوقات"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "إلى"
+   },
+   "manage_tab_schedule_title": {
+      "message": "جدول العمل"
+   },
+   "manage_tab_white": {
+      "message": "قائمة الموقع البيضاء"
+   },
+   "manage_tab_white_desc": {
+      "message": "تتجنب المواقع من هذه القائمة جميع إعدادات الحظر."
+   },
+   "manage_tab_white_input": {
+      "message": "إدخال موقع أبيض"
+   },
+   "manage_tab_white_title": {
+      "message": "قائمة المواقع البيضاء"
+   },
+   "manage_tab_words": {
+      "message": "كتلة من الكلمات"
+   },
+   "manage_tab_words_desc": {
+      "message": "إضافة كلمات منفصلة أو عبارة \u003Cbr/> لحظر جميع المجالات تحتوي على محتوى ذي صلة."
+   },
+   "manage_tab_words_input": {
+      "message": "إدخال كلمة أو عبارة"
+   },
+   "manage_tab_words_title": {
+      "message": "حجب بالكلمات"
+   },
+   "popup_btn_block": {
+      "message": "كتلة الموقع الحالي"
+   },
+   "popup_btn_manage": {
+      "message": "إدارة المواقع المحجوبة"
+   },
+   "popup_label_rate": {
+      "message": "ارجوك قم بتقييمنا!"
+   },
+   "popup_not_avail": {
+      "message": "هذا الموقع غير متاح للحظر"
+   },
+   "redirect_message": {
+      "message": "هذا الموقع محظور لا تحاول تغييره!"
+   },
+   "redirect_title": {
+      "message": "موقع محظور"
+   }
+}

@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "無駄なウェブサイトをブロックして、時間と経験を守ります。"
+   },
+   "app_name": {
+      "message": "ブロックサイト"
+   },
+   "manage_tab_block": {
+      "message": "ブロックサイト"
+   },
+   "manage_tab_block_decs": {
+      "message": "正確なドメイン名を追加して、1つまたは複数のWebサイトをブロックします。 \u003Cbr/>ウェブサイトを無駄にすることなく時間を楽しんでください。"
+   },
+   "manage_tab_block_input": {
+      "message": "Webアドレスを入力します（例：google.com）"
+   },
+   "manage_tab_cats": {
+      "message": "カテゴリ別にブロック"
+   },
+   "manage_tab_cats_1": {
+      "message": "攻撃的"
+   },
+   "manage_tab_cats_10": {
+      "message": "政治"
+   },
+   "manage_tab_cats_11": {
+      "message": "ポルノ"
+   },
+   "manage_tab_cats_12": {
+      "message": "ショッピング"
+   },
+   "manage_tab_cats_13": {
+      "message": "ソーシャルネット"
+   },
+   "manage_tab_cats_14": {
+      "message": "スパイウェア"
+   },
+   "manage_tab_cats_15": {
+      "message": "暴力"
+   },
+   "manage_tab_cats_16": {
+      "message": "兵器"
+   },
+   "manage_tab_cats_2": {
+      "message": "アルコール"
+   },
+   "manage_tab_cats_3": {
+      "message": "デート"
+   },
+   "manage_tab_cats_4": {
+      "message": "ダウンロード"
+   },
+   "manage_tab_cats_5": {
+      "message": "薬物"
+   },
+   "manage_tab_cats_6": {
+      "message": "ギャンブル"
+   },
+   "manage_tab_cats_7": {
+      "message": "ハッキング"
+   },
+   "manage_tab_cats_8": {
+      "message": "映画"
+   },
+   "manage_tab_cats_9": {
+      "message": "音楽"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "セーブ"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Webサーフィン中に表示されないドメインカテゴリを選択します。"
+   },
+   "manage_tab_cats_title": {
+      "message": "ブロックカテゴリ"
+   },
+   "manage_tab_schedule": {
+      "message": "ブロッキングスケジュール"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "各Webサイトに個別のブロックスケジュールを適用する\u003Cbr/>または、ブロックされたすべてのドメインのスケジュールを一度に設定します。"
+   },
+   "manage_tab_schedule_left": {
+      "message": "ブロックスケジュールを設定する"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "間隔を追加"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "ブロックされたすべてに適用"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "このドメインに申し込む"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "選択された日"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "時間を設定"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "に"
+   },
+   "manage_tab_schedule_title": {
+      "message": "作業スケジュール"
+   },
+   "manage_tab_white": {
+      "message": "サイトホワイトリスト"
+   },
+   "manage_tab_white_desc": {
+      "message": "このリストのサイトでは、すべてのブロック設定が回避されます。"
+   },
+   "manage_tab_white_input": {
+      "message": "入力ホワイトサイト"
+   },
+   "manage_tab_white_title": {
+      "message": "ホワイトリストサイト"
+   },
+   "manage_tab_words": {
+      "message": "言葉でブロック"
+   },
+   "manage_tab_words_desc": {
+      "message": "個別の単語またはフレーズを追加する\u003Cbr/>関連するコンテンツを含むすべてのドメインをブロックします。"
+   },
+   "manage_tab_words_input": {
+      "message": "単語またはフレーズを入力してください"
+   },
+   "manage_tab_words_title": {
+      "message": "単語によるブロック"
+   },
+   "popup_btn_block": {
+      "message": "現在のサイトをブロック"
+   },
+   "popup_btn_manage": {
+      "message": "ブロックされたサイトを管理する"
+   },
+   "popup_label_rate": {
+      "message": "評価してください！"
+   },
+   "popup_not_avail": {
+      "message": "このサイトはブロックできません"
+   },
+   "redirect_message": {
+      "message": "このサイトはブロックされています。変更しようとしないでください！"
+   },
+   "redirect_title": {
+      "message": "ブロックされたサイト"
+   }
+}

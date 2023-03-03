@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Защитите свое время и опыт, блокируя ненужные веб-сайты."
+   },
+   "app_name": {
+      "message": "Заблокировать сайт"
+   },
+   "manage_tab_block": {
+      "message": "Блокировать сайты"
+   },
+   "manage_tab_block_decs": {
+      "message": "Заблокируйте один или несколько веб-сайтов, добавив точное доменное имя. \u003Cbr/> Наслаждайтесь своим временем без потраченных впустую вебсайтов."
+   },
+   "manage_tab_block_input": {
+      "message": "Введите веб-адрес (например, google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Блокировать по категориям"
+   },
+   "manage_tab_cats_1": {
+      "message": "агрессивный"
+   },
+   "manage_tab_cats_10": {
+      "message": "политика"
+   },
+   "manage_tab_cats_11": {
+      "message": "порно"
+   },
+   "manage_tab_cats_12": {
+      "message": "поход по магазинам"
+   },
+   "manage_tab_cats_13": {
+      "message": "SocialNet"
+   },
+   "manage_tab_cats_14": {
+      "message": "шпионское"
+   },
+   "manage_tab_cats_15": {
+      "message": "насилие"
+   },
+   "manage_tab_cats_16": {
+      "message": "оружие"
+   },
+   "manage_tab_cats_2": {
+      "message": "алкоголь"
+   },
+   "manage_tab_cats_3": {
+      "message": "знакомства"
+   },
+   "manage_tab_cats_4": {
+      "message": "загрузок"
+   },
+   "manage_tab_cats_5": {
+      "message": "наркотики"
+   },
+   "manage_tab_cats_6": {
+      "message": "авантюра"
+   },
+   "manage_tab_cats_7": {
+      "message": "взлом"
+   },
+   "manage_tab_cats_8": {
+      "message": "фильмы"
+   },
+   "manage_tab_cats_9": {
+      "message": "Музыка"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Сохранить"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Выберите категории доменов, которые не будут отображаться во время вашего веб-серфинга."
+   },
+   "manage_tab_cats_title": {
+      "message": "Блокировать Категории"
+   },
+   "manage_tab_schedule": {
+      "message": "График блокировки"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Применить индивидуальный график блокировки для каждого сайта \u003Cbr/> или настроить расписание для всех заблокированных доменов одновременно."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Настройка расписания блокировки"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Добавить интервал"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Подать заявку на все заблокированные"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Подать заявку на этот домен"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "ИЗБРАННЫЕ ДНИ"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "УСТАНАВЛИВАЙТЕ ВРЕМЕНИ"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "в"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Рабочее расписание"
+   },
+   "manage_tab_white": {
+      "message": "Белый список сайтов"
+   },
+   "manage_tab_white_desc": {
+      "message": "Сайты из этого списка избегают всех настроек блокировки."
+   },
+   "manage_tab_white_input": {
+      "message": "Введите белый сайт"
+   },
+   "manage_tab_white_title": {
+      "message": "Белые списки сайтов"
+   },
+   "manage_tab_words": {
+      "message": "Блок по словам"
+   },
+   "manage_tab_words_desc": {
+      "message": "Добавить отдельные слова или фразы \u003Cbr/> заблокировать все домены, содержащие связанный контент."
+   },
+   "manage_tab_words_input": {
+      "message": "Введите слово или фразу"
+   },
+   "manage_tab_words_title": {
+      "message": "Блокировка словами"
+   },
+   "popup_btn_block": {
+      "message": "Блокировать текущий сайт"
+   },
+   "popup_btn_manage": {
+      "message": "Управление заблокированными сайтами"
+   },
+   "popup_label_rate": {
+      "message": "Пожалуйста, оцените нас!"
+   },
+   "popup_not_avail": {
+      "message": "Этот сайт не доступен для блокировки"
+   },
+   "redirect_message": {
+      "message": "Этот сайт заблокирован. Не пытайтесь изменить это!"
+   },
+   "redirect_title": {
+      "message": "Сайт заблокирован"
+   }
+}

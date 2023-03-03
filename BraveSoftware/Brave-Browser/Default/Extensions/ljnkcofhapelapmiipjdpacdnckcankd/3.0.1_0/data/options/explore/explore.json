@@ -1,0 +1,9 @@
+[
+  {"id": "smart-https", "title": "Smart HTTPS"},
+  {"id": "webapi-blocker", "title": "WebAPI Blocker"},
+  {"id": "noscript-lite", "title": "No-Script Suite Lite"},
+  {"id": "block-image-video", "title": "Block Image|Video"},
+  {"id": "block-miners", "title": "NoMiner - Block Coin Miners"},
+  {"id": "flash-blocker-strict", "title": "Flash Blocker Strict"},
+  {"id": "host-blocker", "title": "Host AdBlocker - Block By Domain"}
+]

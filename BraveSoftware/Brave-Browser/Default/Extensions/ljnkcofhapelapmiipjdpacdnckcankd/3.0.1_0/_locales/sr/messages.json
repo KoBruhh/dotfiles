@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Заштитите своје време и искуство блокадом веб локација."
+   },
+   "app_name": {
+      "message": "Блокирај веб локацију"
+   },
+   "manage_tab_block": {
+      "message": "Блокирај веб локације"
+   },
+   "manage_tab_block_decs": {
+      "message": "Блокирајте једну или више веб локација додавањем тачног имена домена. \u003Cbr/> Уживајте у времену без истрошених веб локација."
+   },
+   "manage_tab_block_input": {
+      "message": "Унесите веб адресу (нпр: гоогле.цом)"
+   },
+   "manage_tab_cats": {
+      "message": "Блокирај по категоријама"
+   },
+   "manage_tab_cats_1": {
+      "message": "агресиван"
+   },
+   "manage_tab_cats_10": {
+      "message": "политика"
+   },
+   "manage_tab_cats_11": {
+      "message": "порно"
+   },
+   "manage_tab_cats_12": {
+      "message": "шопинг"
+   },
+   "manage_tab_cats_13": {
+      "message": "социалнет"
+   },
+   "manage_tab_cats_14": {
+      "message": "шпијунски софтвер"
+   },
+   "manage_tab_cats_15": {
+      "message": "насиље"
+   },
+   "manage_tab_cats_16": {
+      "message": "оружје"
+   },
+   "manage_tab_cats_2": {
+      "message": "алкохол"
+   },
+   "manage_tab_cats_3": {
+      "message": "Упознавање"
+   },
+   "manage_tab_cats_4": {
+      "message": "Преузимања"
+   },
+   "manage_tab_cats_5": {
+      "message": "лекови"
+   },
+   "manage_tab_cats_6": {
+      "message": "коцкање"
+   },
+   "manage_tab_cats_7": {
+      "message": "сјецкање"
+   },
+   "manage_tab_cats_8": {
+      "message": "филмова"
+   },
+   "manage_tab_cats_9": {
+      "message": "музика"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "сачувати"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Изаберите категорије домена које се неће приказивати током вашег веб претраживања."
+   },
+   "manage_tab_cats_title": {
+      "message": "Блокирај категорије"
+   },
+   "manage_tab_schedule": {
+      "message": "Блокирање распореда"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Примените појединачни распоред блокирања за сваку веб локацију \u003Cbr/> или подесите распоред за све блокиране домене одједном."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Подесите распоред блокирања"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Додај интервал"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Пријавите се за све блокиране"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Пријавите се за овај домен"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "ОДАБЕСНИ ДАНИ"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "ПОСТАВИТЕ ВРЕМЕНЕ"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "до"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Радни распоред"
+   },
+   "manage_tab_white": {
+      "message": "Сајт бела листа"
+   },
+   "manage_tab_white_desc": {
+      "message": "Веб локације с ове листе избјегавају сва подешавања блокирања."
+   },
+   "manage_tab_white_input": {
+      "message": "Улазно бело место"
+   },
+   "manage_tab_white_title": {
+      "message": "Беле листе"
+   },
+   "manage_tab_words": {
+      "message": "Блокирај речима"
+   },
+   "manage_tab_words_desc": {
+      "message": "Додајте одвојене речи или фразу \u003Cbr/> за блокирање свих домена садрже повезани садржај."
+   },
+   "manage_tab_words_input": {
+      "message": "Унесите реч или фразу"
+   },
+   "manage_tab_words_title": {
+      "message": "Блокирање речима"
+   },
+   "popup_btn_block": {
+      "message": "Блокирај тренутни сајт"
+   },
+   "popup_btn_manage": {
+      "message": "Управљајте блокираним веб локацијама"
+   },
+   "popup_label_rate": {
+      "message": "Молимо оцените нас!"
+   },
+   "popup_not_avail": {
+      "message": "Ова веб локација није доступна за блокирање"
+   },
+   "redirect_message": {
+      "message": "Ова веб локација је блокирана. Не покушавајте то променити!"
+   },
+   "redirect_title": {
+      "message": "Сајт је блокиран"
+   }
+}

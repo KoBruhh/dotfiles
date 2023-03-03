@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Proteggi il tuo tempo ed esperienza bloccando i siti Web di scarto."
+   },
+   "app_name": {
+      "message": "Blocca sito"
+   },
+   "manage_tab_block": {
+      "message": "Blocca siti"
+   },
+   "manage_tab_block_decs": {
+      "message": "Blocca uno o più siti Web aggiungendo un nome di dominio accurato. \u003Cbr/> Goditi il tuo tempo senza sprecare siti Web."
+   },
+   "manage_tab_block_input": {
+      "message": "Inserisci un indirizzo web (es: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blocca per categorie"
+   },
+   "manage_tab_cats_1": {
+      "message": "aggressivo"
+   },
+   "manage_tab_cats_10": {
+      "message": "politica"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "shopping"
+   },
+   "manage_tab_cats_13": {
+      "message": "Socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "violenza"
+   },
+   "manage_tab_cats_16": {
+      "message": "Armi"
+   },
+   "manage_tab_cats_2": {
+      "message": "alcool"
+   },
+   "manage_tab_cats_3": {
+      "message": "incontri"
+   },
+   "manage_tab_cats_4": {
+      "message": "download"
+   },
+   "manage_tab_cats_5": {
+      "message": "farmaci"
+   },
+   "manage_tab_cats_6": {
+      "message": "giocare"
+   },
+   "manage_tab_cats_7": {
+      "message": "l'hacking"
+   },
+   "manage_tab_cats_8": {
+      "message": "film"
+   },
+   "manage_tab_cats_9": {
+      "message": "musica"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Salva"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Scegli le categorie di dominio che non verranno mostrate durante la tua navigazione."
+   },
+   "manage_tab_cats_title": {
+      "message": "Categorie di blocchi"
+   },
+   "manage_tab_schedule": {
+      "message": "Programma di blocco"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Applica il programma di blocco individuale per ogni sito web \u003Cbr/> o imposta la pianificazione per tutti i domini bloccati contemporaneamente."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Imposta programma di blocco"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Aggiungi intervallo"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Fai domanda per tutti i bloccati"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Richiedi questo dominio"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "GIORNI SELEZIONATI"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "IMPOSTARE TEMPI"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "a"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Orario di lavoro"
+   },
+   "manage_tab_white": {
+      "message": "Lista bianca del sito"
+   },
+   "manage_tab_white_desc": {
+      "message": "I siti di questo elenco evitano tutte le impostazioni di blocco."
+   },
+   "manage_tab_white_input": {
+      "message": "Inserisci sito bianco"
+   },
+   "manage_tab_white_title": {
+      "message": "Siti elencati in bianco"
+   },
+   "manage_tab_words": {
+      "message": "Block by Words"
+   },
+   "manage_tab_words_desc": {
+      "message": "Aggiungi parole o frasi separate \u003Cbr/> per bloccare tutti i domini contengono contenuti correlati."
+   },
+   "manage_tab_words_input": {
+      "message": "Inserisci una parola o una frase"
+   },
+   "manage_tab_words_title": {
+      "message": "Blocco con le parole"
+   },
+   "popup_btn_block": {
+      "message": "Blocca il sito corrente"
+   },
+   "popup_btn_manage": {
+      "message": "Gestisci siti bloccati"
+   },
+   "popup_label_rate": {
+      "message": "Per favore, votaci!"
+   },
+   "popup_not_avail": {
+      "message": "Questo sito non è disponibile per il blocco"
+   },
+   "redirect_message": {
+      "message": "Questo sito è bloccato Non provare a cambiarlo!"
+   },
+   "redirect_title": {
+      "message": "Sito bloccato"
+   }
+}

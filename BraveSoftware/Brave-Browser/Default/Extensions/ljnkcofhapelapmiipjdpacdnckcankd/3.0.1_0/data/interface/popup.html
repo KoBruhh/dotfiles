@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title data-i18n="app_name">Block Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.34.css">
+    <link rel="stylesheet" href="css/fa.all.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <div class="container hidden">
+        <div class="header">
+            <div id="logo" class="hitem">
+                <a href="https://blocksite.freeonlineapps.net" target="_blank">
+                    <img class="img-fluid" src="../icons/Logo-for-dark-BG.svg " alt="Block Site" height="30"
+                        title="Block Site">
+                </a>
+            </div>
+
+            <div class="toggle-button switch-app">
+                <div class="inner-circle"></div> <span id="switch-label">On</span>
+            </div>
+            <div class="manage-site" title="__MSG_popup_btn_manage__">
+                <i class="fas fa-cogs"></i>
+                </button>
+            </div>
+        </div>
+
+        <a href='#' target='_blank' class="teaser">
+            <div style="text-align: center;">
+                <span data-i18n="popup_label_rate">Rate us!</span>
+                <br>
+                <span class="five-stars">⭑⭑⭑⭑⭑</span>
+            </div>
+        </a>
+
+        <div class="dynamic-container"></div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/Localize.js"></script>
+    <script defer src="js/popup.js"></script>
+    <script defer src="/js/rate.js"></script>
+</body>
+
+</html>

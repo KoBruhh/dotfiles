@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Bảo vệ thời gian và kinh nghiệm của bạn bằng cách chặn các trang web lãng phí."
+   },
+   "app_name": {
+      "message": "Chặn trang web"
+   },
+   "manage_tab_block": {
+      "message": "Chặn trang web"
+   },
+   "manage_tab_block_decs": {
+      "message": "Chặn một hoặc một số trang web bằng cách thêm tên miền chính xác. \u003Cbr/> Tận hưởng thời gian của bạn mà không lãng phí các trang web."
+   },
+   "manage_tab_block_input": {
+      "message": "Nhập địa chỉ web (ví dụ: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Chặn theo danh mục"
+   },
+   "manage_tab_cats_1": {
+      "message": "xâm lược"
+   },
+   "manage_tab_cats_10": {
+      "message": "chính trị"
+   },
+   "manage_tab_cats_11": {
+      "message": "khiêu dâm"
+   },
+   "manage_tab_cats_12": {
+      "message": "mua sắm"
+   },
+   "manage_tab_cats_13": {
+      "message": "Mạng xã hội"
+   },
+   "manage_tab_cats_14": {
+      "message": "phần mềm gián điệp"
+   },
+   "manage_tab_cats_15": {
+      "message": "sự bạo lực"
+   },
+   "manage_tab_cats_16": {
+      "message": "vũ khí"
+   },
+   "manage_tab_cats_2": {
+      "message": "rượu"
+   },
+   "manage_tab_cats_3": {
+      "message": "hẹn hò"
+   },
+   "manage_tab_cats_4": {
+      "message": "tải về"
+   },
+   "manage_tab_cats_5": {
+      "message": "thuốc"
+   },
+   "manage_tab_cats_6": {
+      "message": "đánh bạc"
+   },
+   "manage_tab_cats_7": {
+      "message": "hack"
+   },
+   "manage_tab_cats_8": {
+      "message": "phim"
+   },
+   "manage_tab_cats_9": {
+      "message": "Âm nhạc"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Lưu lại"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Chọn các danh mục tên miền sẽ không được hiển thị trong khi lướt web của bạn."
+   },
+   "manage_tab_cats_title": {
+      "message": "Danh mục khối"
+   },
+   "manage_tab_schedule": {
+      "message": "Lịch trình chặn"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Áp dụng lịch chặn riêng cho từng trang web \u003Cbr/> hoặc thiết lập lịch trình cho tất cả các tên miền bị chặn cùng một lúc."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Thiết lập lịch trình chặn"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Thêm khoảng"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Áp dụng cho tất cả bị chặn"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Áp dụng cho tên miền này"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "NGÀY CHỌN"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "THIẾT LẬP THỜI GIAN"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "đến"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Lịch làm việc"
+   },
+   "manage_tab_white": {
+      "message": "Danh sách trắng trang web"
+   },
+   "manage_tab_white_desc": {
+      "message": "Các trang web từ danh sách này tránh tất cả các cài đặt chặn."
+   },
+   "manage_tab_white_input": {
+      "message": "Trang web đầu vào màu trắng"
+   },
+   "manage_tab_white_title": {
+      "message": "Trang web được liệt kê trắng"
+   },
+   "manage_tab_words": {
+      "message": "Chặn lời"
+   },
+   "manage_tab_words_desc": {
+      "message": "Thêm từ hoặc cụm từ riêng biệt \u003Cbr/> để chặn tất cả các tên miền chứa nội dung liên quan."
+   },
+   "manage_tab_words_input": {
+      "message": "Nhập một từ hoặc cụm từ"
+   },
+   "manage_tab_words_title": {
+      "message": "Chặn bằng từ"
+   },
+   "popup_btn_block": {
+      "message": "Chặn trang web hiện tại"
+   },
+   "popup_btn_manage": {
+      "message": "Quản lý các trang web bị chặn"
+   },
+   "popup_label_rate": {
+      "message": "Hãy đánh giá chúng tôi!"
+   },
+   "popup_not_avail": {
+      "message": "Trang web này không có sẵn để chặn"
+   },
+   "redirect_message": {
+      "message": "Trang web này bị chặn. Đừng cố gắng thay đổi nó!"
+   },
+   "redirect_title": {
+      "message": "Trang web bị chặn"
+   }
+}

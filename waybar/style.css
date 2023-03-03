@@ -1,0 +1,144 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Cartograph CF Nerd Font, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(1,1,1,0);
+    color: 	#98971A;
+}
+
+tooltip {
+    background: #282828;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #D79921;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #458588;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #689D6A;
+}
+
+#workspaces button.focused {
+    color: #B16286;
+    background: 	#282828;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #458588;
+    background: 	#282828;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: 	#282828;
+    color: #D65D0E;
+    border-radius: 10px;
+}
+
+#custom-language,
+#custom-updates,
+#custom-caffeine,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#tray,
+#backlight {
+    background: #282828	;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    background: #282828	;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#custom-caffeine {
+    color: 	#D79921;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0px;
+    margin-left: 10px;
+}
+
+#custom-language {
+    color: #B16286	;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#custom-updates {
+    color: #689D6A	;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px 0px 0px 10px;;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: #D65D0E	;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 5px;
+    border-right: 0px;
+}
+
+#network {
+    color: #98971A	;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio {
+    color: #98971A	;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #D79921	;
+    margin-right: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+#battery {
+    color: #A89984	;
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+    border-left: 0px;
+}
+
+#custom-weather {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 0px;
+    margin-left: 0px;
+}

@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Protégez votre temps et votre expérience en bloquant les sites Web inutilisés."
+   },
+   "app_name": {
+      "message": "Site de bloc"
+   },
+   "manage_tab_block": {
+      "message": "Bloquer des sites"
+   },
+   "manage_tab_block_decs": {
+      "message": "Bloquez un ou plusieurs sites Web en ajoutant un nom de domaine précis. \u003Cbr/> Profitez de votre temps sans perte de sites Web."
+   },
+   "manage_tab_block_input": {
+      "message": "Entrez une adresse Web (ex: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Bloquer par catégories"
+   },
+   "manage_tab_cats_1": {
+      "message": "agressif"
+   },
+   "manage_tab_cats_10": {
+      "message": "politique"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "achats"
+   },
+   "manage_tab_cats_13": {
+      "message": "réseau social"
+   },
+   "manage_tab_cats_14": {
+      "message": "Spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "la violence"
+   },
+   "manage_tab_cats_16": {
+      "message": "armes"
+   },
+   "manage_tab_cats_2": {
+      "message": "de l'alcool"
+   },
+   "manage_tab_cats_3": {
+      "message": "sortir ensemble"
+   },
+   "manage_tab_cats_4": {
+      "message": "téléchargements"
+   },
+   "manage_tab_cats_5": {
+      "message": "médicaments"
+   },
+   "manage_tab_cats_6": {
+      "message": "pari"
+   },
+   "manage_tab_cats_7": {
+      "message": "piratage"
+   },
+   "manage_tab_cats_8": {
+      "message": "films"
+   },
+   "manage_tab_cats_9": {
+      "message": "la musique"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "sauver"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Choisissez des catégories de domaines qui ne seront pas affichées lors de votre navigation sur le Web."
+   },
+   "manage_tab_cats_title": {
+      "message": "Catégories de bloc"
+   },
+   "manage_tab_schedule": {
+      "message": "Calendrier de blocage"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Appliquer un calendrier de blocage individuel pour chaque site Web \u003Cbr/> ou configurer la planification pour tous les domaines bloqués à la fois."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Configurer le calendrier de blocage"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Ajouter un intervalle"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Appliquer pour tout bloqué"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Postuler pour ce domaine"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "JOURS CHOISIS"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "RÉGLER LES TEMPS"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "à"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Plan de travail"
+   },
+   "manage_tab_white": {
+      "message": "Liste blanche du site"
+   },
+   "manage_tab_white_desc": {
+      "message": "Les sites de cette liste évitent tous les paramètres de blocage."
+   },
+   "manage_tab_white_input": {
+      "message": "Site blanc d'entrée"
+   },
+   "manage_tab_white_title": {
+      "message": "Sites répertoriés blancs"
+   },
+   "manage_tab_words": {
+      "message": "Bloquer par des mots"
+   },
+   "manage_tab_words_desc": {
+      "message": "Ajouter des mots ou une phrase séparés \u003Cbr/> pour bloquer tous les domaines contiennent du contenu lié."
+   },
+   "manage_tab_words_input": {
+      "message": "Entrez un mot ou une phrase"
+   },
+   "manage_tab_words_title": {
+      "message": "Blocage par des mots"
+   },
+   "popup_btn_block": {
+      "message": "Bloquer le site actuel"
+   },
+   "popup_btn_manage": {
+      "message": "Gérer les sites bloqués"
+   },
+   "popup_label_rate": {
+      "message": "Veuillez nous évaluer!"
+   },
+   "popup_not_avail": {
+      "message": "Ce site n'est pas disponible pour le blocage"
+   },
+   "redirect_message": {
+      "message": "Ce site est bloqué. N'essayez pas de le changer!"
+   },
+   "redirect_title": {
+      "message": "Site bloqué"
+   }
+}

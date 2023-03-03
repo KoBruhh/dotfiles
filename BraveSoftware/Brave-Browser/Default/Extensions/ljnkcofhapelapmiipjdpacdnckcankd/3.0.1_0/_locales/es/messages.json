@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Proteja su tiempo y experiencia bloqueando sitios web de desecho."
+   },
+   "app_name": {
+      "message": "Bloquear sitio"
+   },
+   "manage_tab_block": {
+      "message": "Bloquear sitios"
+   },
+   "manage_tab_block_decs": {
+      "message": "Bloquee uno o varios sitios web agregando un nombre de dominio preciso. \u003Cbr/> Disfruta de tu tiempo sin perder sitios web."
+   },
+   "manage_tab_block_input": {
+      "message": "Ingrese una dirección web (ej .: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Bloquear por categorías"
+   },
+   "manage_tab_cats_1": {
+      "message": "agresivo"
+   },
+   "manage_tab_cats_10": {
+      "message": "política"
+   },
+   "manage_tab_cats_11": {
+      "message": "pornografía"
+   },
+   "manage_tab_cats_12": {
+      "message": "compras"
+   },
+   "manage_tab_cats_13": {
+      "message": "red social"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "violencia"
+   },
+   "manage_tab_cats_16": {
+      "message": "armas"
+   },
+   "manage_tab_cats_2": {
+      "message": "alcohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "Fechado"
+   },
+   "manage_tab_cats_4": {
+      "message": "descargas"
+   },
+   "manage_tab_cats_5": {
+      "message": "drogas"
+   },
+   "manage_tab_cats_6": {
+      "message": "jugar"
+   },
+   "manage_tab_cats_7": {
+      "message": "hackear"
+   },
+   "manage_tab_cats_8": {
+      "message": "películas"
+   },
+   "manage_tab_cats_9": {
+      "message": "música"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Salvar"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Elija categorías de dominio que no se mostrarán durante su navegación web."
+   },
+   "manage_tab_cats_title": {
+      "message": "Categorías de bloque"
+   },
+   "manage_tab_schedule": {
+      "message": "Horario de bloqueo"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Aplicar un calendario de bloqueo individual para cada sitio web \u003Cbr/> o configure la programación para todos los dominios bloqueados a la vez."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Configurar horario de bloqueo"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Agregar intervalo"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Solicitar todos los bloqueados"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Solicite este dominio"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "DÍAS SELECCIONADOS"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "CONFIGURAR HORARIOS"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "a"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Horario de trabajo"
+   },
+   "manage_tab_white": {
+      "message": "Lista blanca del sitio"
+   },
+   "manage_tab_white_desc": {
+      "message": "Los sitios de esta lista evitan todas las configuraciones de bloqueo."
+   },
+   "manage_tab_white_input": {
+      "message": "Entrada de sitio blanco"
+   },
+   "manage_tab_white_title": {
+      "message": "Sitios listados en blanco"
+   },
+   "manage_tab_words": {
+      "message": "Bloquear por palabras"
+   },
+   "manage_tab_words_desc": {
+      "message": "Agregar palabras o frases separadas \u003Cbr/> para bloquear todos los dominios contienen contenido relacionado."
+   },
+   "manage_tab_words_input": {
+      "message": "Ingrese una palabra o una frase"
+   },
+   "manage_tab_words_title": {
+      "message": "Bloqueo por palabras"
+   },
+   "popup_btn_block": {
+      "message": "Bloquear sitio actual"
+   },
+   "popup_btn_manage": {
+      "message": "Administrar sitios bloqueados"
+   },
+   "popup_label_rate": {
+      "message": "¡Por favor califícanos!"
+   },
+   "popup_not_avail": {
+      "message": "Este sitio no está disponible para bloquear"
+   },
+   "redirect_message": {
+      "message": "Este sitio está bloqueado. ¡No intentes cambiarlo!"
+   },
+   "redirect_title": {
+      "message": "Sitio bloqueado"
+   }
+}

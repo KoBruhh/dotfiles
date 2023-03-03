@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/interface/popup.html",
+      "default_title": "__MSG_app_name__"
+   },
+   "background": {
+      "service_worker": "/js/bg-worker.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://blocksite.freeonlineapps.net",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmI0h1yYLqxXOb0ydOt0rZJ3dYuOnAowtCZqgoT1KMmxGQEk0gSEWtLlyK7DdLh/JfPZuIXMe0lcXhTxcCBzd479DZX2yWsu7bTt6MVeOyK0V2NRiS9bh6ho9LLsAT6VlXOt1eNvj3aXhVEtrelgIUFCEtgsJ7DkKs4lgNf6/FmM44o2WMkcA2kY+FoYDuZ5wsyqy3F5tOmhu2MUbWlLl9n+xA5b1MX32QYCuW3xq971/IHziIfB6GqEZcbrEB9f68/hcUxGaK0GBTL+R0H0MS3i1gZUaHEarDzQKcmLBL3zTf+Sa5hhkJd9b0iluZmax00sAaO0qUy9UUy4frFAJkQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_app_name__",
+   "permissions": [ "tabs", "storage", "webRequest" ],
+   "short_name": "block site",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/data/interface/redirect.html" ]
+   } ]
+}

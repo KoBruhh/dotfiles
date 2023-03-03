@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Zaštitite svoje vrijeme i iskustvo blokiranjem web stranica za otpad."
+   },
+   "app_name": {
+      "message": "Blokiraj web mjesto"
+   },
+   "manage_tab_block": {
+      "message": "Blokiraj web-lokacije"
+   },
+   "manage_tab_block_decs": {
+      "message": "Blokirajte jednu ili više web mjesta dodavanjem točnog imena domene. \u003Cbr/> Uživajte u vremenu bez istrošenih web lokacija."
+   },
+   "manage_tab_block_input": {
+      "message": "Unesite web adresu (npr. Google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blokiraj po kategorijama"
+   },
+   "manage_tab_cats_1": {
+      "message": "agresivan"
+   },
+   "manage_tab_cats_10": {
+      "message": "politika"
+   },
+   "manage_tab_cats_11": {
+      "message": "pornografija"
+   },
+   "manage_tab_cats_12": {
+      "message": "kupovina"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spywarea"
+   },
+   "manage_tab_cats_15": {
+      "message": "nasilje"
+   },
+   "manage_tab_cats_16": {
+      "message": "oružje"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "upoznavanje"
+   },
+   "manage_tab_cats_4": {
+      "message": "Preuzimanja"
+   },
+   "manage_tab_cats_5": {
+      "message": "lijekovi"
+   },
+   "manage_tab_cats_6": {
+      "message": "kockanje"
+   },
+   "manage_tab_cats_7": {
+      "message": "cjepkanje"
+   },
+   "manage_tab_cats_8": {
+      "message": "filmovi"
+   },
+   "manage_tab_cats_9": {
+      "message": "glazba"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Uštedjeti"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Odaberite kategorije domene koje se neće prikazivati tijekom vašeg web surfanja."
+   },
+   "manage_tab_cats_title": {
+      "message": "Blokiraj kategorije"
+   },
+   "manage_tab_schedule": {
+      "message": "Blokiranje rasporeda"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Primijenite pojedinačni raspored blokiranja za svaku web lokaciju \u003Cbr/> ili postaviti raspored za sve blokirane domene odjednom."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Postavljanje rasporeda blokade"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Dodajte interval"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Prijavite se za sve blokirane"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Prijavite se za ovu domenu"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "IZBORNI DANI"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "POSTAVITE VRIJEME"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "do"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Radni raspored"
+   },
+   "manage_tab_white": {
+      "message": "Bijeli popis web mjesta"
+   },
+   "manage_tab_white_desc": {
+      "message": "Web-lokacije s ovog popisa izbjegavaju sve postavke blokiranja."
+   },
+   "manage_tab_white_input": {
+      "message": "Unos bijele stranice"
+   },
+   "manage_tab_white_title": {
+      "message": "Web stranice s bijelim popisima"
+   },
+   "manage_tab_words": {
+      "message": "Blokiraj riječima"
+   },
+   "manage_tab_words_desc": {
+      "message": "Dodajte zasebne riječi ili frazu \u003Cbr/> za blokiranje svih domena sadrže povezani sadržaj."
+   },
+   "manage_tab_words_input": {
+      "message": "Unesite riječ ili frazu"
+   },
+   "manage_tab_words_title": {
+      "message": "Blokiranje riječima"
+   },
+   "popup_btn_block": {
+      "message": "Blokiraj trenutačno web mjesto"
+   },
+   "popup_btn_manage": {
+      "message": "Upravljanje blokiranim web-lokacijama"
+   },
+   "popup_label_rate": {
+      "message": "Molimo ocijenite nas!"
+   },
+   "popup_not_avail": {
+      "message": "Ova web lokacija nije dostupna za blokiranje"
+   },
+   "redirect_message": {
+      "message": "Ovo je web mjesto blokirano. Ne pokušavajte to promijeniti!"
+   },
+   "redirect_title": {
+      "message": "Web mjesto je blokirano"
+   }
+}

@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Aizsargājiet savu laiku un pieredzi, bloķējot atkritumu vietnes."
+   },
+   "app_name": {
+      "message": "Vietnes bloķēšana"
+   },
+   "manage_tab_block": {
+      "message": "Vietņu bloķēšana"
+   },
+   "manage_tab_block_decs": {
+      "message": "Bloķējiet vienu vai vairākas vietnes, pievienojot precīzu domēna vārdu. \u003Cbr/> Izbaudiet laiku bez liekas tīmekļa vietnēm."
+   },
+   "manage_tab_block_input": {
+      "message": "Ievadiet tīmekļa adresi (piemēram: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Bloķēt pēc kategorijām"
+   },
+   "manage_tab_cats_1": {
+      "message": "agresīvs"
+   },
+   "manage_tab_cats_10": {
+      "message": "politika"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "iepirkšanās"
+   },
+   "manage_tab_cats_13": {
+      "message": "sociālais tīkls"
+   },
+   "manage_tab_cats_14": {
+      "message": "spiegprogrammatūra"
+   },
+   "manage_tab_cats_15": {
+      "message": "vardarbība"
+   },
+   "manage_tab_cats_16": {
+      "message": "ieročus"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkohols"
+   },
+   "manage_tab_cats_3": {
+      "message": "iepazīšanās"
+   },
+   "manage_tab_cats_4": {
+      "message": "lejupielādes"
+   },
+   "manage_tab_cats_5": {
+      "message": "narkotikas"
+   },
+   "manage_tab_cats_6": {
+      "message": "azarts"
+   },
+   "manage_tab_cats_7": {
+      "message": "hakeru"
+   },
+   "manage_tab_cats_8": {
+      "message": "filmas"
+   },
+   "manage_tab_cats_9": {
+      "message": "mūzika"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Saglabāt"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Izvēlieties domēna kategorijas, kuras netiks rādītas tīmekļa sērfošanas laikā."
+   },
+   "manage_tab_cats_title": {
+      "message": "Bloķēt kategorijas"
+   },
+   "manage_tab_schedule": {
+      "message": "Bloķēšanas grafiks"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Katrai vietnei piemērojiet individuālu bloķēšanas grafiku \u003Cbr/> vai iestatiet grafiku visiem bloķētajiem domēniem vienlaikus."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Iestatiet bloķēšanas grafiku"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Pievienot intervālu"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Piesakieties visiem bloķētajiem"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Piesakieties šim domēnam"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "IZVĒLĒTAS DIENAS"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "IESTATĪT LAIKU"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "līdz"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Darba grafiks"
+   },
+   "manage_tab_white": {
+      "message": "Vietnes baltais saraksts"
+   },
+   "manage_tab_white_desc": {
+      "message": "Šajā sarakstā iekļautajās vietnēs nav novēroti visi bloķēšanas iestatījumi."
+   },
+   "manage_tab_white_input": {
+      "message": "Ievadiet balto vietni"
+   },
+   "manage_tab_white_title": {
+      "message": "Vietnes ar baltu sarakstu"
+   },
+   "manage_tab_words": {
+      "message": "Bloķēt pēc vārdiem"
+   },
+   "manage_tab_words_desc": {
+      "message": "Pievienojiet atsevišķus vārdus vai frāzes \u003Cbr/> lai bloķētu visus domēnus, ir saistīts saturs."
+   },
+   "manage_tab_words_input": {
+      "message": "Ievadiet vārdu vai frāzi"
+   },
+   "manage_tab_words_title": {
+      "message": "Bloķēšana pēc vārdiem"
+   },
+   "popup_btn_block": {
+      "message": "Bloķēt pašreizējo vietni"
+   },
+   "popup_btn_manage": {
+      "message": "Pārvaldiet bloķētās vietnes"
+   },
+   "popup_label_rate": {
+      "message": "Lūdzu, novērtējiet mūs!"
+   },
+   "popup_not_avail": {
+      "message": "Šī vietne nav pieejama bloķēšanai"
+   },
+   "redirect_message": {
+      "message": "Šī vietne ir bloķēta. Nemēģiniet to mainīt!"
+   },
+   "redirect_title": {
+      "message": "Vietne ir bloķēta"
+   }
+}

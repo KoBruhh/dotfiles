@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Protejați-vă timpul și experiența prin blocarea site-urilor web."
+   },
+   "app_name": {
+      "message": "Blocați site-ul"
+   },
+   "manage_tab_block": {
+      "message": "Site-uri de bloc"
+   },
+   "manage_tab_block_decs": {
+      "message": "Blocați unul sau mai multe site-uri web adăugând un nume de domeniu precis. \u003Cbr/> Bucurați-vă de timpul dvs. fără site-uri web irosite."
+   },
+   "manage_tab_block_input": {
+      "message": "Introdu o adresă web (ex: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blocați după categorii"
+   },
+   "manage_tab_cats_1": {
+      "message": "agresiv"
+   },
+   "manage_tab_cats_10": {
+      "message": "politică"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "cumpărături"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "violenţă"
+   },
+   "manage_tab_cats_16": {
+      "message": "arme"
+   },
+   "manage_tab_cats_2": {
+      "message": "alcool"
+   },
+   "manage_tab_cats_3": {
+      "message": "datare"
+   },
+   "manage_tab_cats_4": {
+      "message": "download-uri"
+   },
+   "manage_tab_cats_5": {
+      "message": "droguri"
+   },
+   "manage_tab_cats_6": {
+      "message": "joc de noroc"
+   },
+   "manage_tab_cats_7": {
+      "message": "tocat"
+   },
+   "manage_tab_cats_8": {
+      "message": "filme"
+   },
+   "manage_tab_cats_9": {
+      "message": "muzică"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Salvați"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Alegeți categorii de domenii care nu vor fi afișate în timpul navigării pe web."
+   },
+   "manage_tab_cats_title": {
+      "message": "Blocați categoriile"
+   },
+   "manage_tab_schedule": {
+      "message": "Schedule de blocare"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Aplicați programul de blocare individual pentru fiecare site-uri web \u003Cbr/> sau configurați o programare pentru toate domeniile blocate simultan."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Configurați programul de blocare"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Adaugă interval"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Aplicați pentru toate blocate"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Aplicați pentru acest domeniu"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "ZILELE ALese"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "SET TIMES"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "la"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Program de lucru"
+   },
+   "manage_tab_white": {
+      "message": "Lista albă a site-ului"
+   },
+   "manage_tab_white_desc": {
+      "message": "Site-urile din această listă evită toate setările de blocare."
+   },
+   "manage_tab_white_input": {
+      "message": "Intrare site alb"
+   },
+   "manage_tab_white_title": {
+      "message": "Site-uri alese"
+   },
+   "manage_tab_words": {
+      "message": "Blochează prin cuvinte"
+   },
+   "manage_tab_words_desc": {
+      "message": "Adăugați cuvinte sau fraze separate \u003Cbr/> pentru a bloca toate domeniile conțin conținut asociat."
+   },
+   "manage_tab_words_input": {
+      "message": "Introduceți un cuvânt sau o frază"
+   },
+   "manage_tab_words_title": {
+      "message": "Blocarea după cuvinte"
+   },
+   "popup_btn_block": {
+      "message": "Blocați site-ul curent"
+   },
+   "popup_btn_manage": {
+      "message": "Gestionați site-urile blocate"
+   },
+   "popup_label_rate": {
+      "message": "Vă rugăm să ne evaluați!"
+   },
+   "popup_not_avail": {
+      "message": "Acest site nu este disponibil pentru blocare"
+   },
+   "redirect_message": {
+      "message": "Acest site este blocat. Nu încercați să o schimbați!"
+   },
+   "redirect_title": {
+      "message": "Site-ul blocat"
+   }
+}

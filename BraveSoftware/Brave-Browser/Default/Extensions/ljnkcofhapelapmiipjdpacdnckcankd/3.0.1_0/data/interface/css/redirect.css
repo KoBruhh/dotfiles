@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #44090d;
+  background-size: 100% 100%;
+  font-family: Roboto-Regular, sans-serif;
+}
+
+.container h1.header,
+.container a.blocked-settings {
+  color: #fff;
+  background-color: #68bf9b;
+}
+
+.container h1.header {
+  position: relative;
+  display: inline-block;
+  top: 15vh;
+  left: 50%;
+  padding: 12px 15px;
+  background-color:transparent;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container a.blocked-settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  width: 300px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=redirect.css.map */

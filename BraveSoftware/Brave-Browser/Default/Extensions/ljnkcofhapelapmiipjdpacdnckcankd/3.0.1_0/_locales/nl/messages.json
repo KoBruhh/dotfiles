@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Bescherm uw tijd en ervaring door verspilde websites te blokkeren."
+   },
+   "app_name": {
+      "message": "Site blokkeren"
+   },
+   "manage_tab_block": {
+      "message": "Sites blokkeren"
+   },
+   "manage_tab_block_decs": {
+      "message": "Blokkeer een of meerdere websites door een nauwkeurige domeinnaam toe te voegen. \u003Cbr/> Geniet van uw tijd zonder verspilde websites."
+   },
+   "manage_tab_block_input": {
+      "message": "Voer een webadres in (bijvoorbeeld: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blokkeren op categorieën"
+   },
+   "manage_tab_cats_1": {
+      "message": "agressief"
+   },
+   "manage_tab_cats_10": {
+      "message": "politiek"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "boodschappen doen"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "geweld"
+   },
+   "manage_tab_cats_16": {
+      "message": "wapens"
+   },
+   "manage_tab_cats_2": {
+      "message": "alcohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "dating"
+   },
+   "manage_tab_cats_4": {
+      "message": "downloads"
+   },
+   "manage_tab_cats_5": {
+      "message": "drugs"
+   },
+   "manage_tab_cats_6": {
+      "message": "gokken"
+   },
+   "manage_tab_cats_7": {
+      "message": "hacking"
+   },
+   "manage_tab_cats_8": {
+      "message": "films"
+   },
+   "manage_tab_cats_9": {
+      "message": "muziek-"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Opslaan"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Kies domeincategorieën die niet worden getoond tijdens uw websurfen."
+   },
+   "manage_tab_cats_title": {
+      "message": "Categorieën blokkeren"
+   },
+   "manage_tab_schedule": {
+      "message": "Schema blokkeren"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Pas een individueel blokkeringsschema toe voor elke website \u003Cbr/> of stel een schema in voor alle geblokkeerde domeinen tegelijk."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Blokkeerschema instellen"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Voeg interval toe"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Vraag alle geblokkeerde aan"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Vraag dit domein aan"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "GESELECTEERDE DAGEN"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "TIJDEN INSTELLEN"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "tot"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Werkschema"
+   },
+   "manage_tab_white": {
+      "message": "Witte lijst voor sites"
+   },
+   "manage_tab_white_desc": {
+      "message": "Sites uit deze lijst vermijden alle blokkeerinstellingen."
+   },
+   "manage_tab_white_input": {
+      "message": "Voer witte site in"
+   },
+   "manage_tab_white_title": {
+      "message": "Witte sites"
+   },
+   "manage_tab_words": {
+      "message": "Blok door woorden"
+   },
+   "manage_tab_words_desc": {
+      "message": "Voeg afzonderlijke woorden of zin toe \u003Cbr/> om alle domeinen te blokkeren die gerelateerde inhoud bevatten."
+   },
+   "manage_tab_words_input": {
+      "message": "Voer een woord of een zin in"
+   },
+   "manage_tab_words_title": {
+      "message": "Blokkeren door woorden"
+   },
+   "popup_btn_block": {
+      "message": "Huidige site blokkeren"
+   },
+   "popup_btn_manage": {
+      "message": "Beheer geblokkeerde sites"
+   },
+   "popup_label_rate": {
+      "message": "Beoordeel ons alstublieft!"
+   },
+   "popup_not_avail": {
+      "message": "Deze site kan niet worden geblokkeerd"
+   },
+   "redirect_message": {
+      "message": "Deze site is geblokkeerd. Probeer het niet te veranderen!"
+   },
+   "redirect_title": {
+      "message": "Site geblokkeerd"
+   }
+}

@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Chráňte svoj čas a skúsenosti blokovaním odpadu webových stránok."
+   },
+   "app_name": {
+      "message": "Blokovať stránky"
+   },
+   "manage_tab_block": {
+      "message": "Blokovať stránky"
+   },
+   "manage_tab_block_decs": {
+      "message": "Zablokujte jeden alebo niekoľko webových stránok pridaním presného názvu domény. \u003Cbr/> Užite si čas bez zbytočných webových stránok."
+   },
+   "manage_tab_block_input": {
+      "message": "Zadajte webovú adresu (napr. Google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Blokovať podľa kategórií"
+   },
+   "manage_tab_cats_1": {
+      "message": "útočný"
+   },
+   "manage_tab_cats_10": {
+      "message": "politika"
+   },
+   "manage_tab_cats_11": {
+      "message": "porn"
+   },
+   "manage_tab_cats_12": {
+      "message": "nakupovanie"
+   },
+   "manage_tab_cats_13": {
+      "message": "socialnet"
+   },
+   "manage_tab_cats_14": {
+      "message": "spyware"
+   },
+   "manage_tab_cats_15": {
+      "message": "násilia"
+   },
+   "manage_tab_cats_16": {
+      "message": "zbrane"
+   },
+   "manage_tab_cats_2": {
+      "message": "alkohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "datovania"
+   },
+   "manage_tab_cats_4": {
+      "message": "K stiahnutiu"
+   },
+   "manage_tab_cats_5": {
+      "message": "lieky"
+   },
+   "manage_tab_cats_6": {
+      "message": "hazardovať"
+   },
+   "manage_tab_cats_7": {
+      "message": "suchý"
+   },
+   "manage_tab_cats_8": {
+      "message": "filmy"
+   },
+   "manage_tab_cats_9": {
+      "message": "hudba"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Uložiť"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Vyberte kategórie domén, ktoré sa počas surfovania na webe nebudú zobrazovať."
+   },
+   "manage_tab_cats_title": {
+      "message": "Kategórie blokov"
+   },
+   "manage_tab_schedule": {
+      "message": "Plán blokovania"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Pre každý web použite individuálny plán blokovania \u003Cbr/> alebo nastaviť rozvrh pre všetky blokované domény naraz."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Nastavte plán blokovania"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Pridať interval"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Použiť pre všetky zablokované"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Požiadajte o túto doménu"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "VYBRANÉ DNY"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "NASTAVENIE ČASOV"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "na"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Pracovný rozvrh"
+   },
+   "manage_tab_white": {
+      "message": "Biely zoznam stránok"
+   },
+   "manage_tab_white_desc": {
+      "message": "Webové stránky z tohto zoznamu sa vyhýbajú všetkým nastaveniam blokovania."
+   },
+   "manage_tab_white_input": {
+      "message": "Vstupné biele miesto"
+   },
+   "manage_tab_white_title": {
+      "message": "Biele stránky"
+   },
+   "manage_tab_words": {
+      "message": "Blokovanie slovami"
+   },
+   "manage_tab_words_desc": {
+      "message": "Pridajte samostatné slová alebo frázu \u003Cbr/> blokovať všetky domény obsahujúce súvisiaci obsah."
+   },
+   "manage_tab_words_input": {
+      "message": "Zadajte slovo alebo frázu"
+   },
+   "manage_tab_words_title": {
+      "message": "Blokovanie slovami"
+   },
+   "popup_btn_block": {
+      "message": "Zablokujte aktuálnu stránku"
+   },
+   "popup_btn_manage": {
+      "message": "Spravujte blokované stránky"
+   },
+   "popup_label_rate": {
+      "message": "Ohodnoťte nás!"
+   },
+   "popup_not_avail": {
+      "message": "Táto stránka nie je k dispozícii na blokovanie"
+   },
+   "redirect_message": {
+      "message": "Táto stránka je zablokovaná. Nesnažte sa to zmeniť!"
+   },
+   "redirect_title": {
+      "message": "Stránka je zablokovaná"
+   }
+}

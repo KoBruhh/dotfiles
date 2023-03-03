@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "Protegeix el teu temps i experiència bloquejant llocs web de residus."
+   },
+   "app_name": {
+      "message": "Bloquejar el lloc"
+   },
+   "manage_tab_block": {
+      "message": "Llocs de bloc"
+   },
+   "manage_tab_block_decs": {
+      "message": "Bloquegeu un o diversos llocs web afegint un nom de domini precís. \u003Cbr/> Gaudeix del teu temps sense desaprofitar llocs web."
+   },
+   "manage_tab_block_input": {
+      "message": "Introduïu una adreça web (ex: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "Bloquejar per categories"
+   },
+   "manage_tab_cats_1": {
+      "message": "agressiu"
+   },
+   "manage_tab_cats_10": {
+      "message": "política"
+   },
+   "manage_tab_cats_11": {
+      "message": "porno"
+   },
+   "manage_tab_cats_12": {
+      "message": "compres"
+   },
+   "manage_tab_cats_13": {
+      "message": "xarxa social"
+   },
+   "manage_tab_cats_14": {
+      "message": "programari espia"
+   },
+   "manage_tab_cats_15": {
+      "message": "violència"
+   },
+   "manage_tab_cats_16": {
+      "message": "armes"
+   },
+   "manage_tab_cats_2": {
+      "message": "alcohol"
+   },
+   "manage_tab_cats_3": {
+      "message": "cites"
+   },
+   "manage_tab_cats_4": {
+      "message": "descàrregues"
+   },
+   "manage_tab_cats_5": {
+      "message": "drogues"
+   },
+   "manage_tab_cats_6": {
+      "message": "jugar"
+   },
+   "manage_tab_cats_7": {
+      "message": "pirateria"
+   },
+   "manage_tab_cats_8": {
+      "message": "pel·lícules"
+   },
+   "manage_tab_cats_9": {
+      "message": "música"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "Desa"
+   },
+   "manage_tab_cats_desc": {
+      "message": "Trieu categories de domini que no es mostraran durant la navegació web."
+   },
+   "manage_tab_cats_title": {
+      "message": "Bloquejar categories"
+   },
+   "manage_tab_schedule": {
+      "message": "Programació de bloqueig"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "Apliqueu un calendari de bloqueig individual per a cada lloc web \u003Cbr/> o configurar un calendari per a tots els dominis bloquejats alhora."
+   },
+   "manage_tab_schedule_left": {
+      "message": "Configura la programació de bloqueig"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "Add Interval"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "Sol·liciteu tots els bloquejats"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "Sol·liciteu aquest domini"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "DIES SELECCIONATS"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "CONJUNTA TEMPS"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "per"
+   },
+   "manage_tab_schedule_title": {
+      "message": "Horari de treball"
+   },
+   "manage_tab_white": {
+      "message": "Llista blanca del lloc"
+   },
+   "manage_tab_white_desc": {
+      "message": "Els llocs d'aquesta llista eviten tots els paràmetres de bloqueig."
+   },
+   "manage_tab_white_input": {
+      "message": "Lloc blanc d’entrada"
+   },
+   "manage_tab_white_title": {
+      "message": "Llocs de llistes blanques"
+   },
+   "manage_tab_words": {
+      "message": "Bloquejar per paraules"
+   },
+   "manage_tab_words_desc": {
+      "message": "Afegiu paraules o frases separades \u003Cbr/> per bloquejar tots els dominis que contenen contingut relacionat."
+   },
+   "manage_tab_words_input": {
+      "message": "Introduïu una paraula o una frase"
+   },
+   "manage_tab_words_title": {
+      "message": "Bloqueig per paraules"
+   },
+   "popup_btn_block": {
+      "message": "Bloquejar el lloc actual"
+   },
+   "popup_btn_manage": {
+      "message": "Gestiona els llocs bloquejats"
+   },
+   "popup_label_rate": {
+      "message": "Valoreu-nos!"
+   },
+   "popup_not_avail": {
+      "message": "Aquest lloc no està disponible per bloquejar-lo"
+   },
+   "redirect_message": {
+      "message": "Aquest lloc està bloquejat. No intenteu canviar-ho!"
+   },
+   "redirect_title": {
+      "message": "Lloc bloquejat"
+   }
+}

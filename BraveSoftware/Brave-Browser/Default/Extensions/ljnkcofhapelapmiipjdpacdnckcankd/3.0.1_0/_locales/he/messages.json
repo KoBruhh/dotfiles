@@ -1,0 +1,149 @@
+{
+   "app_description": {
+      "message": "הגן על הזמן והחוויה שלך על ידי חסימת אתרי פסולת."
+   },
+   "app_name": {
+      "message": "חסום אתר"
+   },
+   "manage_tab_block": {
+      "message": "חסום אתרים"
+   },
+   "manage_tab_block_decs": {
+      "message": "חסום אתר אחד או יותר על ידי הוספת שם דומיין מדויק. \u003Cbr/> תיהנו מזמנכם ללא אתרים מבוזבזים."
+   },
+   "manage_tab_block_input": {
+      "message": "הזן כתובת אינטרנט (לדוגמה: google.com)"
+   },
+   "manage_tab_cats": {
+      "message": "חסום לפי קטגוריות"
+   },
+   "manage_tab_cats_1": {
+      "message": "אגרסיבי"
+   },
+   "manage_tab_cats_10": {
+      "message": "פוליטיקה"
+   },
+   "manage_tab_cats_11": {
+      "message": "פורנו"
+   },
+   "manage_tab_cats_12": {
+      "message": "קניות"
+   },
+   "manage_tab_cats_13": {
+      "message": "רשת חברתית"
+   },
+   "manage_tab_cats_14": {
+      "message": "תוכנות ריגול"
+   },
+   "manage_tab_cats_15": {
+      "message": "אלימות"
+   },
+   "manage_tab_cats_16": {
+      "message": "כלי נשק"
+   },
+   "manage_tab_cats_2": {
+      "message": "אלכוהול"
+   },
+   "manage_tab_cats_3": {
+      "message": "היכרויות"
+   },
+   "manage_tab_cats_4": {
+      "message": "הורדות"
+   },
+   "manage_tab_cats_5": {
+      "message": "סמים"
+   },
+   "manage_tab_cats_6": {
+      "message": "להמר"
+   },
+   "manage_tab_cats_7": {
+      "message": "פריצה"
+   },
+   "manage_tab_cats_8": {
+      "message": "סרטים"
+   },
+   "manage_tab_cats_9": {
+      "message": "מוּסִיקָה"
+   },
+   "manage_tab_cats_btn_save": {
+      "message": "לשמור"
+   },
+   "manage_tab_cats_desc": {
+      "message": "בחר קטגוריות דומיין שלא יוצגו במהלך הגלישה באינטרנט."
+   },
+   "manage_tab_cats_title": {
+      "message": "חסום קטגוריות"
+   },
+   "manage_tab_schedule": {
+      "message": "לוח החסימה"
+   },
+   "manage_tab_schedule_desc": {
+      "message": "החל לוח זמנים לחסימה פרטני עבור כל אתרי אינטרנט \u003Cbr/> או הגדר לוח זמנים לכל הדומיינים החסומים בו-זמנית."
+   },
+   "manage_tab_schedule_left": {
+      "message": "הגדר את לוח הזמנים לחסימה"
+   },
+   "manage_tab_schedule_left_add_time": {
+      "message": "הוסף מרווח"
+   },
+   "manage_tab_schedule_left_btn_blocked": {
+      "message": "הגש בקשה לכל החסומים"
+   },
+   "manage_tab_schedule_left_btn_domain": {
+      "message": "הגש בקשה לדומיין זה"
+   },
+   "manage_tab_schedule_left_days": {
+      "message": "ימים נבחרים"
+   },
+   "manage_tab_schedule_left_times": {
+      "message": "הגדר זמנים"
+   },
+   "manage_tab_schedule_left_to": {
+      "message": "ל"
+   },
+   "manage_tab_schedule_title": {
+      "message": "לו\"ז עבודה"
+   },
+   "manage_tab_white": {
+      "message": "רשימה לבנה של האתר"
+   },
+   "manage_tab_white_desc": {
+      "message": "אתרים מרשימה זו נמנעים מכל הגדרות החסימה."
+   },
+   "manage_tab_white_input": {
+      "message": "הזן אתר לבן"
+   },
+   "manage_tab_white_title": {
+      "message": "אתרים ברשימה לבנה"
+   },
+   "manage_tab_words": {
+      "message": "חסום על ידי מילים"
+   },
+   "manage_tab_words_desc": {
+      "message": "הוסף מילים או ביטוי נפרדים \u003Cbr/> כדי לחסום את כל הדומיינים מכילים תוכן קשור."
+   },
+   "manage_tab_words_input": {
+      "message": "הזן מילה או ביטוי"
+   },
+   "manage_tab_words_title": {
+      "message": "חסימת מילים"
+   },
+   "popup_btn_block": {
+      "message": "חסום את האתר הנוכחי"
+   },
+   "popup_btn_manage": {
+      "message": "נהל אתרים חסומים"
+   },
+   "popup_label_rate": {
+      "message": "אנא דרג אותנו!"
+   },
+   "popup_not_avail": {
+      "message": "אתר זה אינו זמין לחסימה"
+   },
+   "redirect_message": {
+      "message": "אתר זה חסום. אל תנסה לשנות את זה!"
+   },
+   "redirect_title": {
+      "message": "האתר חסום"
+   }
+}
