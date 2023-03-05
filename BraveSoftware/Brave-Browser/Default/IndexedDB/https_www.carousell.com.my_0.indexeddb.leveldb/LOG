@@ -1,0 +1,6 @@
+2023/03/04-16:22:27.170 805 Creating DB /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.carousell.com.my_0.indexeddb.leveldb since it was missing.
+2023/03/04-16:22:27.176 805 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.carousell.com.my_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/04-16:23:00.862 805 Level-0 table #5: started
+2023/03/04-16:23:00.864 805 Level-0 table #5: 823 bytes OK
+2023/03/04-16:23:00.868 805 Delete type=0 #3
+2023/03/04-16:23:00.868 805 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

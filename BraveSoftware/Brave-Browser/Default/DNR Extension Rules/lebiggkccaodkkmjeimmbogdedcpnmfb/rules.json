@@ -1,0 +1,1 @@
+[{"action":{"redirect":{"regexSubstitution":"chrome-extension://lebiggkccaodkkmjeimmbogdedcpnmfb/data/blocked/index.html?url=\\0"},"type":"redirect"},"condition":{"isUrlFilterCaseSensitive":false,"regexFilter":"^https*:\\/\\/([^/]+\\.)*www\\.youtube\\.com","resourceTypes":["main_frame","sub_frame"]},"id":1}]

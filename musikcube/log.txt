@@ -1,851 +1,332 @@
-23:54:44 [info] [LOG SESSION] ---------- START ----------
-23:54:44 [info] [PluginFactory] loading plugins
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-23:54:44 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-23:54:44 [info] [PortAudioOut] Pa_Initialize() return code: 0
-23:54:44 [info] [PipeWireOut] shutdown started
-23:54:44 [info] [PipeWireOut] shutdown complete
-23:54:44 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-23:54:44 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-23:54:44 [info] [PortAudioOut] Pa_Terminate() return code: 0
-23:54:44 [info] [Indexer] indexer source -1303229654 running...
-23:54:44 [info] [Indexer] indexer source -1303229654 finished
-23:54:44 [info] [Indexer] indexer source 155697690 running...
-23:54:44 [info] [Indexer] indexer source 155697690 finished
-23:54:44 [info] [Indexer] scanning /home/kobruh/Music/
-23:54:44 [info] [Indexer] scan completed successfully
-23:54:44 [info] [Indexer] cleanup 1/2
-23:54:44 [info] [Indexer] cleanup 2/2
-23:54:44 [info] [Indexer] optimizing
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-23:54:44 [info] [Indexer] done!
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-23:54:44 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
-23:54:44 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:54:44 [info] [GaplessTransport] starting track at /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
-23:54:44 [info] [Player] new instance created
-23:54:44 [info] [GaplessTransport] stop
-23:54:44 [info] [Stream] opening /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
-23:54:44 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
-23:54:44 [info] [ffmpegdecoder] parsing data stream...
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:54:44 [info] [ffmpegdecoder] found audio stream!
-23:54:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:54:44 [info] [Streams] found a decoder for /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
-23:54:44 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-23:54:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:54:48 [info] [GaplessTransport] starting track at /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
-23:54:48 [info] [Player] new instance created
-23:54:48 [info] [GaplessTransport] stop
-23:54:48 [info] [Stream] opening /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
-23:54:48 [info] [LocalFileStream] opening file: /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
-23:54:48 [info] [ffmpegdecoder] parsing data stream...
-23:54:48 [info] [ffmpegdecoder] found audio stream!
-23:54:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:54:48 [info] [Streams] found a decoder for /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:54:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:54:48 [info] [Player] new instance created
-23:54:48 [info] [Stream] opening /home/kobruh/Music/Money.mp3
-23:54:48 [info] [LocalFileStream] opening file: /home/kobruh/Music/Money.mp3
-23:54:48 [info] [ffmpegdecoder] parsing data stream...
-23:54:48 [info] [ffmpegdecoder] found audio stream!
-23:54:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:54:48 [info] [Streams] found a decoder for /home/kobruh/Music/Money.mp3
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:54:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:55:48 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:56:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-23:56:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-23:56:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-23:58:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:58:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:58:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:58:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:58:41 [info] [GaplessTransport] starting track at /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:41 [info] [Player] new instance created
-23:58:41 [info] [GaplessTransport] stop
-23:58:41 [info] [Stream] opening /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:41 [info] [LocalFileStream] opening file: /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:41 [info] [ffmpegdecoder] parsing data stream...
-23:58:41 [info] [ffmpegdecoder] found audio stream!
-23:58:41 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:41 [info] [Streams] found a decoder for /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:58:41 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:58:41 [info] [Player] new instance created
-23:58:41 [info] [Stream] opening /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:58:41 [info] [LocalFileStream] opening file: /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:58:41 [info] [ffmpegdecoder] parsing data stream...
-23:58:41 [info] [ffmpegdecoder] found audio stream!
-23:58:41 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:41 [info] [Streams] found a decoder for /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:58:42 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:58:42 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:58:42 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:58:42 [info] [GaplessTransport] starting track at /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:58:42 [info] [Player] new instance created
-23:58:42 [info] [GaplessTransport] stop
-23:58:42 [info] [Stream] opening /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:58:42 [info] [LocalFileStream] opening file: /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:58:42 [info] [ffmpegdecoder] parsing data stream...
-23:58:42 [info] [ffmpegdecoder] found audio stream!
-23:58:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:42 [info] [Streams] found a decoder for /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:58:42 [info] [Player] new instance created
-23:58:42 [info] [Stream] opening /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:42 [info] [LocalFileStream] opening file: /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:42 [info] [ffmpegdecoder] parsing data stream...
-23:58:42 [info] [ffmpegdecoder] found audio stream!
-23:58:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:42 [info] [Streams] found a decoder for /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:58:49 [info] [GaplessTransport] starting track at /home/kobruh/Music/The Thin Ice.mp3
-23:58:49 [info] [Player] new instance created
-23:58:49 [info] [GaplessTransport] stop
-23:58:49 [info] [Stream] opening /home/kobruh/Music/The Thin Ice.mp3
-23:58:49 [info] [LocalFileStream] opening file: /home/kobruh/Music/The Thin Ice.mp3
-23:58:49 [info] [ffmpegdecoder] parsing data stream...
-23:58:49 [info] [ffmpegdecoder] found audio stream!
-23:58:49 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:49 [info] [Streams] found a decoder for /home/kobruh/Music/The Thin Ice.mp3
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:58:49 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:58:49 [info] [Player] new instance created
-23:58:49 [info] [Stream] opening /home/kobruh/Music/The Trial.mp3
-23:58:49 [info] [LocalFileStream] opening file: /home/kobruh/Music/The Trial.mp3
-23:58:49 [info] [ffmpegdecoder] parsing data stream...
-23:58:49 [info] [ffmpegdecoder] found audio stream!
-23:58:49 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:49 [info] [Streams] found a decoder for /home/kobruh/Music/The Trial.mp3
-23:58:59 [info] [GaplessTransport] starting track at /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:59 [info] [Player] new instance created
-23:58:59 [info] [Stream] opening /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:59 [info] [GaplessTransport] stop
-23:58:59 [info] [LocalFileStream] opening file: /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:59 [info] [ffmpegdecoder] parsing data stream...
-23:58:59 [info] [ffmpegdecoder] found audio stream!
-23:58:59 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:59 [info] [Streams] found a decoder for /home/kobruh/Music/Turkish March Mozart - Rondo Alla Turca.mp3
-23:58:59 [info] [Player] new instance created
-23:58:59 [info] [Stream] opening /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:58:59 [info] [LocalFileStream] opening file: /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:58:59 [info] [ffmpegdecoder] parsing data stream...
-23:58:59 [info] [ffmpegdecoder] found audio stream!
-23:58:59 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:58:59 [info] [Streams] found a decoder for /home/kobruh/Music/Undertale - Another Medium (SLOWED & REVERB).mp3
-23:59:05 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-23:59:05 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-23:59:05 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-23:59:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-23:59:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-23:59:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-23:59:06 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-23:59:06 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-23:59:06 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-23:59:06 [info] [GaplessTransport] starting track at /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-23:59:06 [info] [Player] new instance created
-23:59:06 [info] [GaplessTransport] stop
-23:59:06 [info] [Stream] opening /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-23:59:06 [info] [LocalFileStream] opening file: /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-23:59:06 [info] [ffmpegdecoder] parsing data stream...
-23:59:06 [info] [ffmpegdecoder] found audio stream!
-23:59:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:59:06 [info] [Streams] found a decoder for /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-23:59:07 [info] [Player] new instance created
-23:59:07 [info] [Stream] opening /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:59:07 [info] [LocalFileStream] opening file: /home/kobruh/Music/Total Eclipse of the Heart.mp3
-23:59:07 [info] [ffmpegdecoder] parsing data stream...
-23:59:07 [info] [ffmpegdecoder] found audio stream!
-23:59:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-23:59:07 [info] [Streams] found a decoder for /home/kobruh/Music/Total Eclipse of the Heart.mp3
-00:00:14 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:00:14 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:00:14 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:03:36 [info] [ffmpegdecoder] finished decoding.
-00:03:38 [info] [GaplessTransport] stop
-00:03:38 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:03:38 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:03:38 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:03:38 [info] [Player] new instance created
-00:03:38 [info] [Stream] opening /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:38 [info] [LocalFileStream] opening file: /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:38 [info] [ffmpegdecoder] parsing data stream...
-00:03:38 [info] [ffmpegdecoder] found audio stream!
-00:03:38 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:03:38 [info] [Streams] found a decoder for /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:38 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:03:50 [info] [GaplessTransport] starting track at /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:50 [info] [Player] new instance created
-00:03:50 [info] [GaplessTransport] stop
-00:03:50 [info] [Stream] opening /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:50 [info] [LocalFileStream] opening file: /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:50 [info] [ffmpegdecoder] parsing data stream...
-00:03:50 [info] [ffmpegdecoder] found audio stream!
-00:03:50 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:03:50 [info] [Streams] found a decoder for /home/kobruh/Music/Westlife - Total Eclipse of the Heart (Live from Top of the Pops 2007).mp3
-00:03:50 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:04:49 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:04:49 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:04:49 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:07:47 [info] [ffmpegdecoder] finished decoding.
-00:07:49 [info] [GaplessTransport] stop
-00:08:22 [info] [GaplessTransport] starting track at /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-00:08:22 [info] [Player] new instance created
-00:08:22 [info] [GaplessTransport] stop
-00:08:22 [info] [Stream] opening /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-00:08:22 [info] [LocalFileStream] opening file: /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-00:08:22 [info] [ffmpegdecoder] parsing data stream...
-00:08:22 [info] [ffmpegdecoder] found audio stream!
-00:08:22 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:22 [info] [Streams] found a decoder for /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
-00:08:22 [info] [Player] new instance created
-00:08:22 [info] [Stream] opening /home/kobruh/Music/Total Eclipse of the Heart.mp3
-00:08:22 [info] [LocalFileStream] opening file: /home/kobruh/Music/Total Eclipse of the Heart.mp3
-00:08:22 [info] [ffmpegdecoder] parsing data stream...
-00:08:22 [info] [ffmpegdecoder] found audio stream!
-00:08:22 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:22 [info] [Streams] found a decoder for /home/kobruh/Music/Total Eclipse of the Heart.mp3
-00:08:22 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:08:22 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:08:22 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:08:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:30 [info] [GaplessTransport] starting track at /home/kobruh/Music/Ludwig van Beethoven, Fazıl Say - Beethoven - Piano Sonata No. 8 in C Minor, Op. 13, 'Pathétique' - II. Adagio cantabile.mp3
-00:08:30 [info] [Player] new instance created
-00:08:30 [info] [Stream] opening /home/kobruh/Music/Ludwig van Beethoven, Fazıl Say - Beethoven - Piano Sonata No. 8 in C Minor, Op. 13, 'Pathétique' - II. Adagio cantabile.mp3
-00:08:30 [info] [GaplessTransport] stop
-00:08:30 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludwig van Beethoven, Fazıl Say - Beethoven - Piano Sonata No. 8 in C Minor, Op. 13, 'Pathétique' - II. Adagio cantabile.mp3
-00:08:30 [info] [ffmpegdecoder] parsing data stream...
-00:08:30 [info] [ffmpegdecoder] found audio stream!
-00:08:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:30 [info] [Streams] found a decoder for /home/kobruh/Music/Ludwig van Beethoven, Fazıl Say - Beethoven - Piano Sonata No. 8 in C Minor, Op. 13, 'Pathétique' - II. Adagio cantabile.mp3
-00:08:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:30 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:30 [info] [Player] new instance created
-00:08:30 [info] [Stream] opening /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:30 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:30 [info] [ffmpegdecoder] parsing data stream...
-00:08:30 [info] [ffmpegdecoder] found audio stream!
-00:08:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:30 [info] [Streams] found a decoder for /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:32 [info] [GaplessTransport] starting track at /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:32 [info] [Player] new instance created
-00:08:32 [info] [Stream] opening /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:32 [info] [GaplessTransport] stop
-00:08:32 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:32 [info] [ffmpegdecoder] parsing data stream...
-00:08:32 [info] [ffmpegdecoder] found audio stream!
-00:08:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:32 [info] [Streams] found a decoder for /home/kobruh/Music/Ludwig van Beethoven, Paul Lewis - Sonata No. 14 'Moonlight' in C-Sharp Minor', Op. 27 No. 2 - I. Adagio sostenuto.mp3
-00:08:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:33 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:33 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:33 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:33 [info] [Player] new instance created
-00:08:33 [info] [Stream] opening /home/kobruh/Music/Ludwig van Beethoven, Berliner Philharmoniker, Kirill Petrenko - Symphony No. 7 in A Major, Op. 92 - II. Allegretto.mp3
-00:08:33 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludwig van Beethoven, Berliner Philharmoniker, Kirill Petrenko - Symphony No. 7 in A Major, Op. 92 - II. Allegretto.mp3
-00:08:33 [info] [ffmpegdecoder] parsing data stream...
-00:08:33 [info] [ffmpegdecoder] found audio stream!
-00:08:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:33 [info] [Streams] found a decoder for /home/kobruh/Music/Ludwig van Beethoven, Berliner Philharmoniker, Kirill Petrenko - Symphony No. 7 in A Major, Op. 92 - II. Allegretto.mp3
-00:08:33 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:08:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:35 [info] [GaplessTransport] starting track at /home/kobruh/Music/Gabriel Fauré, Bernarda Fink, Steven Blier, New York Festival Of Song - En Sourdine.mp3
-00:08:35 [info] [Player] new instance created
-00:08:35 [info] [GaplessTransport] stop
-00:08:35 [info] [Stream] opening /home/kobruh/Music/Gabriel Fauré, Bernarda Fink, Steven Blier, New York Festival Of Song - En Sourdine.mp3
-00:08:35 [info] [LocalFileStream] opening file: /home/kobruh/Music/Gabriel Fauré, Bernarda Fink, Steven Blier, New York Festival Of Song - En Sourdine.mp3
-00:08:35 [info] [ffmpegdecoder] parsing data stream...
-00:08:35 [info] [ffmpegdecoder] found audio stream!
-00:08:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:35 [info] [Streams] found a decoder for /home/kobruh/Music/Gabriel Fauré, Bernarda Fink, Steven Blier, New York Festival Of Song - En Sourdine.mp3
-00:08:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:35 [info] [Player] new instance created
-00:08:35 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:35 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:35 [info] [ffmpegdecoder] parsing data stream...
-00:08:35 [info] [ffmpegdecoder] found audio stream!
-00:08:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:35 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:37 [info] [GaplessTransport] starting track at /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:37 [info] [Player] new instance created
-00:08:37 [info] [GaplessTransport] stop
-00:08:37 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:37 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:37 [info] [ffmpegdecoder] parsing data stream...
-00:08:37 [info] [ffmpegdecoder] found audio stream!
-00:08:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:37 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - İşçi Marşı.mp3
-00:08:37 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:08:37 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:08:37 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:08:37 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:08:37 [info] [Player] new instance created
-00:08:37 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Parka.mp3
-00:08:37 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Parka.mp3
-00:08:37 [info] [ffmpegdecoder] parsing data stream...
-00:08:37 [info] [ffmpegdecoder] found audio stream!
-00:08:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:08:37 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Parka.mp3
-00:08:37 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:09:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:09:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:09:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:12:45 [info] [ffmpegdecoder] finished decoding.
-00:12:47 [info] [GaplessTransport] stop
-00:12:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:12:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:12:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:12:48 [info] [Player] new instance created
-00:12:48 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:12:48 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:12:48 [info] [ffmpegdecoder] parsing data stream...
-00:12:48 [info] [ffmpegdecoder] found audio stream!
-00:12:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:12:48 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:12:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:14:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:14:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:14:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:15:39 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:15:39 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:15:39 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:15:43 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:15:43 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:15:43 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:15:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:15:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:15:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:15:44 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:15:44 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:15:44 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:15:45 [info] [GaplessTransport] starting track at /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:15:45 [info] [Player] new instance created
-00:15:45 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:15:45 [info] [GaplessTransport] stop
-00:15:45 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:15:45 [info] [ffmpegdecoder] parsing data stream...
-00:15:45 [info] [ffmpegdecoder] found audio stream!
-00:15:45 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:15:45 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:15:45 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:16:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:16:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:16:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:18:52 [info] [ffmpegdecoder] finished decoding.
-00:18:54 [info] [GaplessTransport] stop
-00:28:04 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:28:04 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:28:04 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:28:04 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:04 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:04 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:05 [info] [GaplessTransport] starting track at /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:28:05 [info] [Player] new instance created
-00:28:05 [info] [GaplessTransport] stop
-00:28:05 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:28:05 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:28:05 [info] [ffmpegdecoder] parsing data stream...
-00:28:05 [info] [ffmpegdecoder] found audio stream!
-00:28:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:05 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Beni Siz Delirttiniz.mp3
-00:28:05 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:05 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:28:05 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:28:05 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:28:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:07 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:28:07 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:28:07 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:28:07 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:07 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:07 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:10 [info] [GaplessTransport] starting track at /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-00:28:10 [info] [Player] new instance created
-00:28:10 [info] [GaplessTransport] stop
-00:28:10 [info] [Stream] opening /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-00:28:10 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-00:28:10 [info] [ffmpegdecoder] parsing data stream...
-00:28:10 [info] [ffmpegdecoder] found audio stream!
-00:28:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:10 [info] [Streams] found a decoder for /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:10 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:10 [info] [Player] new instance created
-00:28:10 [info] [Stream] opening /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-00:28:10 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-00:28:10 [info] [ffmpegdecoder] parsing data stream...
-00:28:10 [info] [ffmpegdecoder] found audio stream!
-00:28:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:10 [info] [Streams] found a decoder for /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:15 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:15 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:15 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:15 [info] [GaplessTransport] starting track at /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood.mp3
-00:28:15 [info] [Player] new instance created
-00:28:15 [info] [GaplessTransport] stop
-00:28:15 [info] [Stream] opening /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood.mp3
-00:28:15 [info] [LocalFileStream] opening file: /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood.mp3
-00:28:15 [info] [ffmpegdecoder] parsing data stream...
-00:28:15 [info] [ffmpegdecoder] found audio stream!
-00:28:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:15 [info] [Streams] found a decoder for /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood.mp3
-00:28:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:16 [info] [Player] new instance created
-00:28:16 [info] [Stream] opening /home/kobruh/Music/Ludwig van Beethoven, David Parry, London Philharmonic Orchestra - Symphony No. 5 in C Minor, Op. 67 'Fate' - Allegro con brio.mp3
-00:28:16 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludwig van Beethoven, David Parry, London Philharmonic Orchestra - Symphony No. 5 in C Minor, Op. 67 'Fate' - Allegro con brio.mp3
-00:28:16 [info] [ffmpegdecoder] parsing data stream...
-00:28:16 [info] [ffmpegdecoder] found audio stream!
-00:28:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:16 [info] [Streams] found a decoder for /home/kobruh/Music/Ludwig van Beethoven, David Parry, London Philharmonic Orchestra - Symphony No. 5 in C Minor, Op. 67 'Fate' - Allegro con brio.mp3
-00:28:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:20 [info] [GaplessTransport] starting track at /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King.mp3
-00:28:20 [info] [Player] new instance created
-00:28:20 [info] [GaplessTransport] stop
-00:28:20 [info] [Stream] opening /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King.mp3
-00:28:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King.mp3
-00:28:20 [info] [ffmpegdecoder] parsing data stream...
-00:28:20 [info] [ffmpegdecoder] found audio stream!
-00:28:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:20 [info] [Streams] found a decoder for /home/kobruh/Music/Edvard Grieg, David Parry, London Philharmonic Orchestra - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King.mp3
-00:28:20 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:20 [info] [Player] new instance created
-00:28:20 [info] [Stream] opening /home/kobruh/Music/Gabriel Fauré, David Parry, London Philharmonic Orchestra - Pavane, Op. 50.mp3
-00:28:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Gabriel Fauré, David Parry, London Philharmonic Orchestra - Pavane, Op. 50.mp3
-00:28:20 [info] [ffmpegdecoder] parsing data stream...
-00:28:20 [info] [ffmpegdecoder] found audio stream!
-00:28:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:20 [info] [Streams] found a decoder for /home/kobruh/Music/Gabriel Fauré, David Parry, London Philharmonic Orchestra - Pavane, Op. 50.mp3
-00:28:20 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:24 [info] [GaplessTransport] starting track at /home/kobruh/Music/Luigi Boccherini, David Parry, London Philharmonic Orchestra - String Quintet in E Major, G. 282 - III. Minuetto - Trio.mp3
-00:28:24 [info] [Player] new instance created
-00:28:24 [info] [GaplessTransport] stop
-00:28:24 [info] [Stream] opening /home/kobruh/Music/Luigi Boccherini, David Parry, London Philharmonic Orchestra - String Quintet in E Major, G. 282 - III. Minuetto - Trio.mp3
-00:28:24 [info] [LocalFileStream] opening file: /home/kobruh/Music/Luigi Boccherini, David Parry, London Philharmonic Orchestra - String Quintet in E Major, G. 282 - III. Minuetto - Trio.mp3
-00:28:24 [info] [ffmpegdecoder] parsing data stream...
-00:28:24 [info] [ffmpegdecoder] found audio stream!
-00:28:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:24 [info] [Streams] found a decoder for /home/kobruh/Music/Luigi Boccherini, David Parry, London Philharmonic Orchestra - String Quintet in E Major, G. 282 - III. Minuetto - Trio.mp3
-00:28:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:24 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:24 [info] [Player] new instance created
-00:28:24 [info] [Stream] opening /home/kobruh/Music/Wolfgang Amadeus Mozart, David Parry, London Philharmonic Orchestra - Symphony No. 40 in G Minor, K. 550 - I. Allegro molto.mp3
-00:28:24 [info] [LocalFileStream] opening file: /home/kobruh/Music/Wolfgang Amadeus Mozart, David Parry, London Philharmonic Orchestra - Symphony No. 40 in G Minor, K. 550 - I. Allegro molto.mp3
-00:28:24 [info] [ffmpegdecoder] parsing data stream...
-00:28:24 [info] [ffmpegdecoder] found audio stream!
-00:28:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:24 [info] [Streams] found a decoder for /home/kobruh/Music/Wolfgang Amadeus Mozart, David Parry, London Philharmonic Orchestra - Symphony No. 40 in G Minor, K. 550 - I. Allegro molto.mp3
-00:28:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:28:31 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:28:31 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:28:31 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:28:31 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:32 [info] [GaplessTransport] starting track at /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
-00:28:32 [info] [Player] new instance created
-00:28:32 [info] [GaplessTransport] stop
-00:28:32 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
-00:28:32 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
-00:28:32 [info] [ffmpegdecoder] parsing data stream...
-00:28:32 [info] [ffmpegdecoder] found audio stream!
-00:28:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:32 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:28:32 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:28:32 [info] [Player] new instance created
-00:28:32 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
-00:28:32 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
-00:28:32 [info] [ffmpegdecoder] parsing data stream...
-00:28:32 [info] [ffmpegdecoder] found audio stream!
-00:28:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:28:32 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
-00:29:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:29:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:29:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:32:40 [info] [ffmpegdecoder] finished decoding.
-00:32:42 [info] [GaplessTransport] stop
-00:32:43 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:32:43 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:32:43 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:32:43 [info] [Player] new instance created
-00:32:43 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
-00:32:43 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
-00:32:43 [info] [ffmpegdecoder] parsing data stream...
-00:32:43 [info] [ffmpegdecoder] found audio stream!
-00:32:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:32:43 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
-00:34:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:34:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:34:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:38:02 [info] [ffmpegdecoder] finished decoding.
-00:38:04 [info] [GaplessTransport] stop
-00:38:04 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:38:04 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:38:04 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:38:04 [info] [Player] new instance created
-00:38:04 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
-00:38:04 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
-00:38:04 [info] [ffmpegdecoder] parsing data stream...
-00:38:04 [info] [ffmpegdecoder] found audio stream!
-00:38:04 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:38:04 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
-00:39:07 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:39:07 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:39:07 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:42:17 [info] [ffmpegdecoder] finished decoding.
-00:42:19 [info] [GaplessTransport] stop
-00:42:19 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:42:19 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:42:19 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:42:19 [info] [Player] new instance created
-00:42:19 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Tamirci Çırağı (Official Lyric Video).mp3
-00:42:19 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Tamirci Çırağı (Official Lyric Video).mp3
-00:42:19 [info] [ffmpegdecoder] parsing data stream...
-00:42:19 [info] [ffmpegdecoder] found audio stream!
-00:42:19 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:42:19 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Tamirci Çırağı (Official Lyric Video).mp3
-00:43:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:43:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:43:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:45:16 [info] [ffmpegdecoder] finished decoding.
-00:45:18 [info] [GaplessTransport] stop
-00:45:19 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:45:19 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:45:19 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:45:19 [info] [Player] new instance created
-00:45:19 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Dıy Dıy.mp3
-00:45:19 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Dıy Dıy.mp3
-00:45:19 [info] [ffmpegdecoder] parsing data stream...
-00:45:19 [info] [ffmpegdecoder] found audio stream!
-00:45:19 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:45:19 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Dıy Dıy.mp3
-00:45:19 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:46:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:46:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:46:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:47:30 [info] [GaplessTransport] pause
-00:47:31 [info] [GaplessTransport] resume
-00:50:13 [info] [ffmpegdecoder] finished decoding.
-00:50:15 [info] [GaplessTransport] stop
-00:50:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:50:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:50:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:50:16 [info] [Player] new instance created
-00:50:16 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Maden Ocağının Dibinde.mp3
-00:50:16 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Maden Ocağının Dibinde.mp3
-00:50:16 [info] [ffmpegdecoder] parsing data stream...
-00:50:16 [info] [ffmpegdecoder] found audio stream!
-00:50:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:50:16 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Maden Ocağının Dibinde.mp3
-00:50:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:51:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:51:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:51:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:53:52 [info] [ffmpegdecoder] finished decoding.
-00:53:55 [info] [GaplessTransport] stop
-00:53:55 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:53:55 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:53:55 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:53:55 [info] [Player] new instance created
-00:53:55 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Mor Perşembe.mp3
-00:53:55 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Mor Perşembe.mp3
-00:53:55 [info] [ffmpegdecoder] parsing data stream...
-00:53:55 [info] [ffmpegdecoder] found audio stream!
-00:53:55 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:53:55 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Mor Perşembe.mp3
-00:53:55 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:54:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:54:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:54:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:55:44 [info] [ffmpegdecoder] finished decoding.
-00:55:46 [info] [GaplessTransport] stop
-00:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:55:47 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:55:47 [info] [Player] new instance created
-00:55:47 [info] [Stream] opening /home/kobruh/Music/Cem Karaca, Moğollar - El Çek Tabip.mp3
-00:55:47 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca, Moğollar - El Çek Tabip.mp3
-00:55:47 [info] [ffmpegdecoder] parsing data stream...
-00:55:47 [info] [ffmpegdecoder] found audio stream!
-00:55:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:55:47 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca, Moğollar - El Çek Tabip.mp3
-00:55:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:56:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:56:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:56:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-00:59:32 [info] [ffmpegdecoder] finished decoding.
-00:59:35 [info] [GaplessTransport] stop
-00:59:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:59:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:59:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:59:35 [info] [Player] new instance created
-00:59:35 [info] [Stream] opening /home/kobruh/Music/Cem Karaca, Moğollar - Ala Geyik Destanı.mp3
-00:59:35 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca, Moğollar - Ala Geyik Destanı.mp3
-00:59:35 [info] [ffmpegdecoder] parsing data stream...
-00:59:35 [info] [ffmpegdecoder] found audio stream!
-00:59:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:59:35 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca, Moğollar - Ala Geyik Destanı.mp3
-00:59:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:59:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-00:59:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-00:59:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-01:01:07 [info] [ffmpegdecoder] finished decoding.
-01:01:10 [info] [GaplessTransport] stop
-01:01:10 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-01:01:10 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-01:01:10 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-01:01:10 [info] [Player] new instance created
-01:01:10 [info] [Stream] opening /home/kobruh/Music/Cem Karaca, Moğollar - Edalı Gelin.mp3
-01:01:10 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca, Moğollar - Edalı Gelin.mp3
-01:01:10 [info] [ffmpegdecoder] parsing data stream...
-01:01:10 [info] [ffmpegdecoder] found audio stream!
-01:01:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-01:01:10 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca, Moğollar - Edalı Gelin.mp3
-01:01:10 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-01:02:22 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-01:02:22 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-01:02:22 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-01:02:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-01:02:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-01:02:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-01:02:23 [info] [GaplessTransport] starting track at /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-01:02:23 [info] [Player] new instance created
-01:02:23 [info] [Stream] opening /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-01:02:23 [info] [GaplessTransport] stop
-01:02:23 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-01:02:23 [info] [ffmpegdecoder] parsing data stream...
-01:02:23 [info] [ffmpegdecoder] found audio stream!
-01:02:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-01:02:23 [info] [Streams] found a decoder for /home/kobruh/Music/Ahmet Kaya - Gururla Bakıyorum Dünyaya.mp3
-01:02:23 [info] [Player] new instance created
-01:02:23 [info] [Stream] opening /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-01:02:23 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-01:02:23 [info] [ffmpegdecoder] parsing data stream...
-01:02:23 [info] [ffmpegdecoder] found audio stream!
-01:02:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-01:02:23 [info] [Streams] found a decoder for /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
-01:02:23 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-01:02:23 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-01:02:23 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-01:02:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-01:02:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-01:02:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-01:02:25 [info] [GaplessTransport] starting track at /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video]0.mp3
-01:02:25 [info] [Player] new instance created
-01:02:25 [info] [GaplessTransport] stop
-01:02:25 [info] [Stream] opening /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video]0.mp3
-01:02:25 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video]0.mp3
-01:02:25 [info] [ffmpegdecoder] parsing data stream...
-01:02:25 [info] [ffmpegdecoder] found audio stream!
-01:02:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-01:02:25 [info] [Streams] found a decoder for /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video]0.mp3
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-01:02:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-01:02:25 [info] [Player] new instance created
-01:02:25 [info] [Stream] opening /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video].mp3
-01:02:25 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video].mp3
-01:02:25 [info] [ffmpegdecoder] parsing data stream...
-01:02:25 [info] [ffmpegdecoder] found audio stream!
-01:02:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-01:02:25 [info] [Streams] found a decoder for /home/kobruh/Music/Pink Floyd - Shine On You Crazy Diamond [Official Music Video].mp3
-01:05:45 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-01:05:45 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-01:05:45 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:28:26 [info] [LOG SESSION] ---------- START ----------
+07:28:26 [info] [PluginFactory] loading plugins
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+07:28:26 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+07:28:27 [info] [PortAudioOut] Pa_Initialize() return code: 0
+07:28:27 [info] [PipeWireOut] shutdown started
+07:28:27 [info] [PipeWireOut] shutdown complete
+07:28:27 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+07:28:27 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+07:28:27 [info] [PortAudioOut] Pa_Terminate() return code: 0
+07:28:27 [info] [Indexer] indexer source -1303229654 running...
+07:28:27 [info] [Indexer] indexer source -1303229654 finished
+07:28:27 [info] [Indexer] indexer source 155697690 running...
+07:28:27 [info] [Indexer] indexer source 155697690 finished
+07:28:27 [info] [Indexer] scanning /home/kobruh/Music/
+07:28:27 [info] [Indexer] scan completed successfully
+07:28:27 [info] [Indexer] cleanup 1/2
+07:28:27 [info] [Indexer] cleanup 2/2
+07:28:27 [info] [Indexer] optimizing
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+07:28:27 [info] [Indexer] done!
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+07:28:27 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+07:28:27 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:28:27 [info] [GaplessTransport] starting track at /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
+07:28:27 [info] [Player] new instance created
+07:28:27 [info] [GaplessTransport] stop
+07:28:27 [info] [Stream] opening /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
+07:28:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
+07:28:27 [info] [ffmpegdecoder] parsing data stream...
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:28:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:28:27 [info] [ffmpegdecoder] found audio stream!
+07:28:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:28:27 [info] [Streams] found a decoder for /home/kobruh/Music/Pixies - Where Is My Mind  Fight Club Theme  Piano Cover.mp3
+07:28:27 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+07:28:27 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+07:28:29 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:28:29 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:28:29 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:28:29 [info] [GaplessTransport] starting track at /home/kobruh/Music/Lensky - Little Dark Age (MGMT piano cover).mp3
+07:28:29 [info] [Player] new instance created
+07:28:29 [info] [GaplessTransport] stop
+07:28:29 [info] [Stream] opening /home/kobruh/Music/Lensky - Little Dark Age (MGMT piano cover).mp3
+07:28:29 [info] [LocalFileStream] opening file: /home/kobruh/Music/Lensky - Little Dark Age (MGMT piano cover).mp3
+07:28:29 [info] [ffmpegdecoder] parsing data stream...
+07:28:29 [info] [ffmpegdecoder] found audio stream!
+07:28:29 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:28:29 [info] [Streams] found a decoder for /home/kobruh/Music/Lensky - Little Dark Age (MGMT piano cover).mp3
+07:28:30 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:28:30 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:28:30 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:28:30 [info] [Player] new instance created
+07:28:30 [info] [Stream] opening /home/kobruh/Music/Ludovico Einaudi - Experience - Solo Piano.mp3
+07:28:30 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludovico Einaudi - Experience - Solo Piano.mp3
+07:28:30 [info] [ffmpegdecoder] parsing data stream...
+07:28:30 [info] [ffmpegdecoder] found audio stream!
+07:28:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:28:30 [info] [Streams] found a decoder for /home/kobruh/Music/Ludovico Einaudi - Experience - Solo Piano.mp3
+07:29:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:29:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:29:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:31:52 [info] [ffmpegdecoder] finished decoding.
+07:31:54 [info] [GaplessTransport] stop
+07:31:55 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:31:55 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:31:55 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:31:55 [info] [Player] new instance created
+07:31:55 [info] [Stream] opening /home/kobruh/Music/Ludovico Einaudi, Miloš Karadaglić - Full Moon (Arr. Lewin for Guitar).mp3
+07:31:55 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ludovico Einaudi, Miloš Karadaglić - Full Moon (Arr. Lewin for Guitar).mp3
+07:31:55 [info] [ffmpegdecoder] parsing data stream...
+07:31:55 [info] [ffmpegdecoder] found audio stream!
+07:31:55 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:31:55 [info] [Streams] found a decoder for /home/kobruh/Music/Ludovico Einaudi, Miloš Karadaglić - Full Moon (Arr. Lewin for Guitar).mp3
+07:33:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:33:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:33:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:36:50 [info] [ffmpegdecoder] finished decoding.
+07:36:52 [info] [GaplessTransport] stop
+07:36:52 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:36:52 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:36:52 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:36:52 [info] [Player] new instance created
+07:36:52 [info] [Stream] opening /home/kobruh/Music/Maurice Ravel, Paul Galbraith - Ma mere l'oye (Mother Goose) (arr. P. Galbraith) - V. Le jardin feerique.mp3
+07:36:52 [info] [LocalFileStream] opening file: /home/kobruh/Music/Maurice Ravel, Paul Galbraith - Ma mere l'oye (Mother Goose) (arr. P. Galbraith) - V. Le jardin feerique.mp3
+07:36:52 [info] [ffmpegdecoder] parsing data stream...
+07:36:52 [info] [ffmpegdecoder] found audio stream!
+07:36:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:36:52 [info] [Streams] found a decoder for /home/kobruh/Music/Maurice Ravel, Paul Galbraith - Ma mere l'oye (Mother Goose) (arr. P. Galbraith) - V. Le jardin feerique.mp3
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:37:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:37:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:37:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:37:47 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:40:30 [info] [ffmpegdecoder] finished decoding.
+07:40:33 [info] [GaplessTransport] stop
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:40:33 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:40:33 [info] [Player] new instance created
+07:40:33 [info] [Stream] opening /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
+07:40:33 [info] [LocalFileStream] opening file: /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
+07:40:33 [info] [ffmpegdecoder] parsing data stream...
+07:40:33 [info] [ffmpegdecoder] found audio stream!
+07:40:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:40:33 [info] [Streams] found a decoder for /home/kobruh/Music/MGMT - Little Dark Age (Lyrics).mp3
+07:40:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:40:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:40:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:41:10 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+07:41:10 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+07:41:10 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+07:41:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:41:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:41:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:41:11 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+07:41:11 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+07:41:11 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+07:41:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:41:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:41:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:41:13 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+07:41:13 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+07:41:13 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+07:41:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:41:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:41:13 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:41:16 [info] [GaplessTransport] stop
+07:41:18 [info] [GaplessTransport] stop
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:41:20 [info] [GaplessTransport] starting track at /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
+07:41:20 [info] [Player] new instance created
+07:41:20 [info] [GaplessTransport] stop
+07:41:20 [info] [Stream] opening /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
+07:41:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
+07:41:20 [info] [ffmpegdecoder] parsing data stream...
+07:41:20 [info] [ffmpegdecoder] found audio stream!
+07:41:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:20 [info] [Streams] found a decoder for /home/kobruh/Music/Ahmet Kaya Yorgun Demokrat.mp3
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:41:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:41:20 [info] [Player] new instance created
+07:41:20 [info] [Stream] opening /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:20 [info] [ffmpegdecoder] parsing data stream...
+07:41:20 [info] [ffmpegdecoder] found audio stream!
+07:41:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:20 [info] [Streams] found a decoder for /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:41:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:41:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:41:25 [info] [GaplessTransport] starting track at /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
+07:41:25 [info] [Player] new instance created
+07:41:25 [info] [GaplessTransport] stop
+07:41:25 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
+07:41:25 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
+07:41:25 [info] [ffmpegdecoder] parsing data stream...
+07:41:25 [info] [ffmpegdecoder] found audio stream!
+07:41:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:25 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Oh Be  - LP.mp3
+07:41:26 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:41:26 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:41:26 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:41:26 [info] [Player] new instance created
+07:41:26 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
+07:41:26 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
+07:41:26 [info] [ffmpegdecoder] parsing data stream...
+07:41:26 [info] [ffmpegdecoder] found audio stream!
+07:41:26 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:26 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Resimdeki gözyaşları (Bir gün belki hayattan).mp3
+07:41:27 [info] [GaplessTransport] starting track at /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:27 [info] [Player] new instance created
+07:41:27 [info] [GaplessTransport] stop
+07:41:27 [info] [Stream] opening /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:27 [info] [ffmpegdecoder] parsing data stream...
+07:41:27 [info] [ffmpegdecoder] found audio stream!
+07:41:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:27 [info] [Streams] found a decoder for /home/kobruh/Music/Another Brick In The Wall (Part 2).mp3
+07:41:27 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:41:27 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:41:27 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:41:27 [info] [Player] new instance created
+07:41:27 [info] [Stream] opening /home/kobruh/Music/Black out days rock version.mp3
+07:41:27 [info] [LocalFileStream] opening file: /home/kobruh/Music/Black out days rock version.mp3
+07:41:27 [info] [ffmpegdecoder] parsing data stream...
+07:41:27 [info] [ffmpegdecoder] found audio stream!
+07:41:27 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:41:27 [info] [Streams] found a decoder for /home/kobruh/Music/Black out days rock version.mp3
+07:41:27 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+07:42:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:42:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:42:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:45:24 [info] [ffmpegdecoder] finished decoding.
+07:45:26 [info] [GaplessTransport] stop
+07:45:26 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:45:26 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:45:26 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:45:26 [info] [Player] new instance created
+07:45:26 [info] [Stream] opening /home/kobruh/Music/Brain Damage.mp3
+07:45:26 [info] [LocalFileStream] opening file: /home/kobruh/Music/Brain Damage.mp3
+07:45:26 [info] [ffmpegdecoder] parsing data stream...
+07:45:26 [info] [ffmpegdecoder] found audio stream!
+07:45:26 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:45:26 [info] [Streams] found a decoder for /home/kobruh/Music/Brain Damage.mp3
+07:46:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:46:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:46:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:48:17 [info] [ffmpegdecoder] finished decoding.
+07:48:20 [info] [GaplessTransport] stop
+07:48:20 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:48:20 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:48:20 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:48:20 [info] [Player] new instance created
+07:48:20 [info] [Stream] opening /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
+07:48:20 [info] [LocalFileStream] opening file: /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
+07:48:20 [info] [ffmpegdecoder] parsing data stream...
+07:48:20 [info] [ffmpegdecoder] found audio stream!
+07:48:20 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:48:20 [info] [Streams] found a decoder for /home/kobruh/Music/Bonnie Tyler - Total Eclipse of the Heart - Electric Guitar Cover by Kfir Ochaion - Godin Guitars.mp3
+07:49:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:49:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:49:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:52:04 [info] [ffmpegdecoder] finished decoding.
+07:52:06 [info] [GaplessTransport] stop
+07:52:06 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:52:06 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:52:06 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:52:06 [info] [Player] new instance created
+07:52:06 [info] [Stream] opening /home/kobruh/Music/Breathe (In The Air).mp3
+07:52:06 [info] [LocalFileStream] opening file: /home/kobruh/Music/Breathe (In The Air).mp3
+07:52:06 [info] [ffmpegdecoder] parsing data stream...
+07:52:06 [info] [ffmpegdecoder] found audio stream!
+07:52:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:52:06 [info] [Streams] found a decoder for /home/kobruh/Music/Breathe (In The Air).mp3
+07:53:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:53:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:53:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:55:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+07:55:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+07:56:36 [info] [ffmpegdecoder] finished decoding.
+07:56:38 [info] [GaplessTransport] stop
+07:56:38 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:56:38 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:56:38 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:56:38 [info] [Player] new instance created
+07:56:38 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
+07:56:38 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
+07:56:38 [info] [ffmpegdecoder] parsing data stream...
+07:56:38 [info] [ffmpegdecoder] found audio stream!
+07:56:38 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:56:38 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Deniz Üstü Köpürür (Official Video).mp3
+07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4

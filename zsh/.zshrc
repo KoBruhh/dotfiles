@@ -5,6 +5,8 @@
 ## rxyhn's Z-Shell configuration
 ## https://github.com/rxyhn
 
+neofetch
+
 while read file
 do 
   source "$ZDOTDIR/$file.zsh"

@@ -1,1 +1,5 @@
-{}
+{
+  "coc-rust-analyzer|global": {
+    "release": "2023-02-27"
+  }
+}

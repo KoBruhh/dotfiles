@@ -1,15 +1,26 @@
-2023/03/04-01:09:44.741 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2023/03/04-01:09:44.742 3 Recovering log #93
-2023/03/04-01:09:44.742 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000093.log 
-2023/03/04-01:10:03.644 3 Level-0 table #97: started
-2023/03/04-01:10:03.652 3 Level-0 table #97: 23097 bytes OK
-2023/03/04-01:10:03.657 3 Delete type=0 #93
-2023/03/04-01:10:03.658 3 Compacting 4@0 + 1@1 files
-2023/03/04-01:10:03.664 3 Generated table #98@0: 820 keys, 69443 bytes
-2023/03/04-01:10:03.664 3 Compacted 4@0 + 1@1 files => 69443 bytes
-2023/03/04-01:10:03.668 3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/03/04-01:10:03.669 3 Delete type=2 #87
-2023/03/04-01:10:03.669 3 Delete type=2 #89
-2023/03/04-01:10:03.669 3 Delete type=2 #92
-2023/03/04-01:10:03.669 3 Delete type=2 #94
-2023/03/04-01:10:03.669 3 Delete type=2 #97
+2023/03/05-07:27:51.252 3 Reusing MANIFEST /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/05-07:27:51.254 3 Recovering log #235
+2023/03/05-07:27:51.255 3 Reusing old log /home/kobruh/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000235.log 
+2023/03/05-07:29:15.422 6 Level-0 table #239: started
+2023/03/05-07:29:15.449 6 Level-0 table #239: 1449456 bytes OK
+2023/03/05-07:29:15.453 6 Delete type=0 #235
+2023/03/05-07:36:26.414 3 Level-0 table #241: started
+2023/03/05-07:36:26.427 3 Level-0 table #241: 436861 bytes OK
+2023/03/05-07:36:26.431 3 Delete type=0 #238
+2023/03/05-07:36:26.432 3 Compacting 4@0 + 2@1 files
+2023/03/05-07:36:26.459 3 Generated table #242@0: 2301 keys, 2104190 bytes
+2023/03/05-07:36:26.461 3 Generated table #243@0: 22 keys, 2775 bytes
+2023/03/05-07:36:26.461 3 Compacted 4@0 + 2@1 files => 2106965 bytes
+2023/03/05-07:36:26.465 3 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/03/05-07:36:26.465 3 Delete type=2 #231
+2023/03/05-07:36:26.466 3 Delete type=2 #232
+2023/03/05-07:36:26.466 3 Delete type=2 #234
+2023/03/05-07:36:26.466 3 Delete type=2 #236
+2023/03/05-07:36:26.466 3 Delete type=2 #239
+2023/03/05-07:36:26.466 3 Delete type=2 #241
+2023/03/05-07:51:06.134 10 Level-0 table #245: started
+2023/03/05-07:51:06.141 10 Level-0 table #245: 25421 bytes OK
+2023/03/05-07:51:06.146 10 Delete type=0 #240
+2023/03/05-07:55:06.134 3 Level-0 table #247: started
+2023/03/05-07:55:06.142 3 Level-0 table #247: 18709 bytes OK
+2023/03/05-07:55:06.146 3 Delete type=0 #244

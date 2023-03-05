@@ -1,0 +1,51 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "/data/icons/16.png",
+         "32": "/data/icons/32.png"
+      }
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Press the action button"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "data/inject/page-blocker.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://add0n.com/block-site.html",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoyGzxk5g8SCSAIYfNzkZoePMCJvpCReIkNnDjchundCP2uuLnAECrxpc2T+aBfQjEsN03cw/JQJ9LrhN5VoNBYGOv4knBIuUgbJlgvPasa9jZ+58YRpnl8z6WaXFYTqGa2/xj6M0p7oZHQlzwYrhIQqTxqjfABoAxQGDv1Iaab6EOgJLDEack//ZU57fFvqU0KwnjbYVYcL2hh643Cbf7YRghDk9P5JFDEokcLhJJ740PrM9GxoHjpHvo2sakX1dzwPTLGjZwazWZgwK6shAz43rfbwNBaG4sK3KOB23U1lKa2oInb0/QgKNpB38TmGhBuPXbKFcenN3g8LEDpf2hQIDAQAB",
+   "manifest_version": 3,
+   "name": "Block Site",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "activeTab", "storage", "notifications", "alarms", "contextMenus", "declarativeNetRequest" ],
+   "storage": {
+      "managed_schema": "schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.8",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "/data/blocked/index.html", "/data/close/index.html" ]
+   } ]
+}

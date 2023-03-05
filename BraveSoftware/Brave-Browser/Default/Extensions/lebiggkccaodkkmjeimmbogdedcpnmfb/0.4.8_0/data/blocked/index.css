@@ -1,0 +1,171 @@
+html {
+  --bg: #e1e1e1;
+  --input-bg: #fff;
+  --fg: #4e4e4e;
+  --input-fg: #4e4e4e;
+  --a-fg: #006cc3;
+
+  height: 100%;
+  color-scheme: light;
+}
+html.dark {
+  --bg: #222837;
+  --input-bg: #363c4b;
+  --fg: #c7c7c7;
+  --input-fg: #d0d0d0;
+  --a-fg: #90bbde;
+
+  color-scheme: darl;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  color: var(--fg);
+  background: var(--bg) url('images/blocked.svg') center center no-repeat;
+  background-size: min(80vw, 50vh);
+  height: 100%;
+}
+
+html.dark body {
+  background-blend-mode: luminosity;
+}
+
+@media screen and (max-height: 400px) {
+  body {
+    background-image: none !important;
+  }
+}
+
+header h1 {
+  text-align: center;
+  font-weight: normal;
+}
+header table {
+  table-layout: fixed;
+}
+header td:last-of-type {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+header,
+footer,
+p {
+  padding: 10px;
+}
+#rate::after,
+#options::before {
+  content: '•';
+  padding: 0 5px;
+}
+#rate[data-hide=true] {
+  display: none;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  align-items: center;
+  grid-gap: 10px;
+}
+footer > div {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  justify-content: end;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+input[type=text],
+input[type=password] {
+  outline: none;
+  min-width: 150px;
+  color: var(--input-fg);
+  background-color: var(--input-bg);
+  border: none;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+footer input[type=password] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--a-fg);
+}
+
+#url {
+  display: flex;
+  align-items: end;
+}
+#domain {
+  font-weight: bold;
+  font-size: 120%;
+}
+#sub-domain,
+#pathname,
+#search {
+  opacity: 0.7;
+}
+#search,
+#pathname {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('images/button_on.svg') no-repeat center center;
+  background-size: 32px;
+  width: 64px;
+  height: 48px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+html.dark #switch {
+  background-image: url('images/button_off.svg');
+}
+
+#message {
+  white-space: pre;
+  overflow: auto;
+}
+
+[hbox] {
+  display: flex;
+  flex-direction: row;
+}
+[vbox] {
+  display: flex;
+  flex-direction: column;
+}
+[flex="1"] {
+  flex: 1;
+}
+[align=center] {
+  align-items: center;
+}
+
+html.simple header h1,
+html.simple header table,
+html.simple footer {
+  display: none !important;
+}
+
