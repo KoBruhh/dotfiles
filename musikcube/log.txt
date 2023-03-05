@@ -330,3 +330,18 @@
 07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
 07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
 07:57:20 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+07:59:25 [info] [ffmpegdecoder] finished decoding.
+07:59:27 [info] [GaplessTransport] stop
+07:59:28 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+07:59:28 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+07:59:28 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+07:59:28 [info] [Player] new instance created
+07:59:28 [info] [Stream] opening /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
+07:59:28 [info] [LocalFileStream] opening file: /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
+07:59:28 [info] [ffmpegdecoder] parsing data stream...
+07:59:28 [info] [ffmpegdecoder] found audio stream!
+07:59:28 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+07:59:28 [info] [Streams] found a decoder for /home/kobruh/Music/Cem Karaca - Hep Kahır.mp3
+08:00:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+08:00:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+08:00:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
